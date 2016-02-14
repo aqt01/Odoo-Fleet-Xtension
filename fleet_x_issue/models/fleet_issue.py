@@ -15,28 +15,28 @@ class fleet_vehicle_issue(models.Model):
     _order = 'date,id DESC'    
     _inherit = ['mail.thread', 'ir.needaction_mixin']
     
-    name = fields.Char('Subject', size=256, required=True)
-    date = fields.Date('Date', required=True, default=fields.Date.today(), index=True)
-    vehicle_id = fields.Many2one('fleet.vehicle', 'Vehicle', required=True, ondelete='cascade', index=True)
+    name = fields.Char(_('Subject'), size=256, required=True)
+    date = fields.Date(_('Date'), required=True, default=fields.Date.today(), index=True)
+    vehicle_id = fields.Many2one('fleet.vehicle', _('Vehicle'), required=True, ondelete='cascade', index=True)
     complainant = fields.Char('Complainant')    
-    category_id = fields.Many2one('fleet.vehicle.issue.category', 'Category', required=True, index=True)
-    response = fields.Text('Response', required=False)
-    memo = fields.Text('Description')
+    category_id = fields.Many2one('fleet.vehicle.issue.category', _('Category'), required=True, index=True)
+    response = fields.Text(_('Response'), required=False)
+    memo = fields.Text(_('Description'))
     
-    cost_id = fields.Many2one('fleet.vehicle.cost', 'Associated Cost', readonly=True)
-    cost_amount = fields.Float('Cost Amount', readonly=True, related='cost_id.amount')
+    cost_id = fields.Many2one('fleet.vehicle.cost', _('Associated Cost'), readonly=True)
+    cost_amount = fields.Float(_('Cost Amount'), readonly=True, related='cost_id.amount')
     
-    priority = fields.Selection([('0', 'Low'), ('1', 'Normal'), ('2', 'High')], 'Priority', index=True, requried=True, default='1')
-    date_open = fields.Date('Opened')
-    date_closed = fields.Date('Closed')
-    date_deadline = fields.Date('Deadline')
-    state = fields.Selection([('draft', 'Draft'),
-                               ('confirm', 'Confirmed'),
-                               ('done', 'Resolved'),
-                               ('cancel', 'Cancelled'),
+    priority = fields.Selection([('0', 'Low'), ('1', 'Normal'), ('2', 'High')], _('Priority'), index=True, requried=True, default='1')
+    date_open = fields.Date(_('Opened'))
+    date_closed = fields.Date(_('Closed'))
+    date_deadline = fields.Date(_('Deadline'))
+    state = fields.Selection([('draft', _('Draft')),
+                               ('confirm', _('Confirmed')),
+                               ('done', _('Resolved')),
+                               ('cancel', _('Cancelled')),
                               ],
-                              'State', default='draft')
-    attachment_count = fields.Integer(string='Number of Attachments', compute='_get_attachment_number')    
+                              _('State'), default='draft')
+    attachment_count = fields.Integer(string=_('Number of Attachments'), compute='_get_attachment_number')
         
     @api.one 
     def _get_attachment_number(self):
@@ -56,7 +56,7 @@ class fleet_vehicle_issue(models.Model):
     
     @api.multi
     def action_log_cost(self):
-        assert len(self) == 1, 'This option should only be used for a single id at a time.'
+        assert len(self) == 1, _('This option should only be used for a single id at a time.')
         issue = self[0]
 
         compose_form = self.env.ref('fleet.fleet_vehicle_costs_form', False)        

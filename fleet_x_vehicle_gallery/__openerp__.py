@@ -6,10 +6,11 @@
     'website': "http://idtlabs.sl",
     'category': 'Managing vehicles and contracts',
     'version': '0.1',
-    'depends': ['fleet_x', 'web_tree_image'],
+    'depends': ['fleet_x'],
     'data': [
         'security/ir.model.access.csv',
         'views/fleet_gallery.xml',
+        'views/inspection_report.xml'
     ],
 
     'installable': True

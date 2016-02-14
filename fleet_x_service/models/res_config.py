@@ -34,12 +34,12 @@ class fleet_config_settings(osv.osv_memory):
     _inherit = 'fleet.config.settings'
 
     _columns = {
-        'default_repair_scheduling_interval' : fields.selection([('odometer', 'Odometer'),
-                                               ('time', 'Time'),
-                                               ('both', 'Both')], 'Scheduling Interval'),
-        'default_repair_scheduling_time' : fields.integer('Interval (Mnths)', help="Interval between each servicing in months"),
-        'default_repair_scheduling_odometer' : fields.integer('Interval (Odometer)', help="Interval between each servicing in months"),
-        'default_repair_scheduling_notice' : fields.integer('Notice (days)', help="How many days before date of schedule should notices be generated"),
+        'default_repair_scheduling_interval' : fields.selection([('odometer', _('Odometer')),
+                                               ('time', _('Time')),
+                                               ('both', _('Both'))], _('Scheduling Interval')),
+        'default_repair_scheduling_time' : fields.integer(_('Interval (Mnths)'), help=_("Interval between each servicing in months")),
+        'default_repair_scheduling_odometer' : fields.integer(_('Interval (Odometer)'), help=_("Interval between each servicing in months")),
+        'default_repair_scheduling_notice' : fields.integer(_('Notice (days)'), help=_("How many days before date of schedule should notices be generated")),
 
     }
 

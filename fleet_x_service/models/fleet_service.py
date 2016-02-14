@@ -10,8 +10,8 @@ from datetime import datetime, timedelta, date
 class fleet_service_type(models.Model):
     _inherit = 'fleet.service.type'
     
-    parent_id = fields.Many2one('fleet.service.type', 'Parent')
-    display_name = fields.Char(compute='_service_name_get_fnc', string='Name', store=False)
+    parent_id = fields.Many2one('fleet.service.type', _('Parent'))
+    display_name = fields.Char(compute='_service_name_get_fnc', string=_('Name'), store=False)
     
     @api.one 
     @api.depends('name', 'parent_id')
@@ -53,17 +53,17 @@ class fleet_service_schedule(models.Model):
         scheduled_date = datetime.now().date() + timedelta(days=value or 10)
         return fields.Date.to_string(scheduled_date)
     
-    name = fields.Char('Reference', readonly=True)
-    vehicle_id = fields.Many2one('fleet.vehicle', 'Vehicle', required=True)
-    date = fields.Date('Scheduled On', required=True, default=fields.Date.today())
-    date_deadline = fields.Date('Deadline', required=True, default=_get_date_deadline)
-    date_closed = fields.Date('Closed Date')
-    state = fields.Selection([('open', 'Open'),
-                              ('overdue', 'Overdue'),
-                              ('done', 'Done'),
-                              ('cancel', 'Cancel')], default='open')
-    service_log_id = fields.Many2one('fleet.vehicle.log.services', 'Service Log', readonly=True, inverse='_set_service_id')
-    note = fields.Text('Description')
+    name = fields.Char(_('Reference'), readonly=True)
+    vehicle_id = fields.Many2one(_('fleet.vehicle'), 'Vehicle', required=True)
+    date = fields.Date(_('Scheduled On'), required=True, default=fields.Date.today())
+    date_deadline = fields.Date(_('Deadline'), required=True, default=_get_date_deadline)
+    date_closed = fields.Date(_('Closed Date'))
+    state = fields.Selection([('open', _('Open')),
+                              ('overdue', _('Overdue')),
+                              ('done', _('Done')),
+                              ('cancel', _('Cancel'))], default='open')
+    service_log_id = fields.Many2one('fleet.vehicle.log.services', _('Service Log'), readonly=True, inverse='_set_service_id')
+    note = fields.Text(_('Description'))
     auto_generated = fields.Boolean()
     
     @api.one 
@@ -71,14 +71,14 @@ class fleet_service_schedule(models.Model):
     def _check_date(self):
         if self.date_deadline and self.date and \
             fields.Date.from_string(self.date_deadline) < fields.Date.from_string(self.date):
-            raise Warning('Deadline cannot be before the date of creation')
+            raise Warning(_('Deadline cannot be before the date of creation'))
         return True
 
     @api.model
     def _cron_update_overdue(self):
-        res_ids = self.search([('state', '=', 'open'),
+        res_ids = self.search([('state', '=', _('open')),
                                ('date_deadline', '<', fields.Date.today())])
-        res_ids.write({'state' : 'overdue'})
+        res_ids.write({'state' : _('overdue')})
         
     @api.one
     def _set_service_id(self):
@@ -105,7 +105,7 @@ class fleet_service_schedule(models.Model):
     def action_done(self):
         for schedule in self:
             if not len(schedule.service_log_id):
-                raise Warning('No associated service log found for this schedule and so cannot mark as closed')
+                raise Warning(_('No associated service log found for this schedule and so cannot mark as closed'))
             schedule.write({'state' : 'done', 'date_closed' : schedule.date_closed or fields.Date.today()})
         
     @api.multi 
@@ -115,7 +115,7 @@ class fleet_service_schedule(models.Model):
         
     @api.multi
     def action_log_service(self):
-        assert len(self) == 1, 'This option should only be used for a single id at a time.'
+        assert len(self) == 1, _('This option should only be used for a single id at a time.')
         compose_form = self.env.ref('fleet.fleet_vehicle_log_services_form', False)
         ctx = dict(
             default_schedule_id=self.id,
@@ -155,30 +155,30 @@ class fleet_vehicle(models.Model):
         value = ir_values.get_default('fleet.fuel.service', 'default_repair_scheduling_odometer')
         return value or 5000
 
-    last_service_id = fields.Many2one('fleet.vehicle.log.services', 'Last Service Log',
+    last_service_id = fields.Many2one('fleet.vehicle.log.services', _('Last Service Log'),
                                       readonly=True, store=True, compute="_compute_last_service")
-    last_service_date = fields.Date('Last Serviced On', readonly=True, store=True,
+    last_service_date = fields.Date(_('Last Serviced On'), readonly=True, store=True,
                                     related='last_service_id.date')
-    last_service_odometer = fields.Float('Last Service Odometer', readonly=True, store=True,
+    last_service_odometer = fields.Float(_('Last Service Odometer'), readonly=True, store=True,
                                     related='last_service_id.odometer')
-    next_service_date = fields.Date('Next Service On', readonly=True, store=True,
+    next_service_date = fields.Date(_('Next Service On'), readonly=True, store=True,
                                     compute='_compute_next_service_details')
-    next_service_odometer = fields.Float('Next Service Odometer', readonly=True, store=True,
+    next_service_odometer = fields.Float(_('Next Service Odometer'), readonly=True, store=True,
                                     compute='_compute_next_service_details')
     
-    repair_scheduling_interval = fields.Selection([('odometer', 'Odometer'),
-                                                   ('time', 'Time'),
-                                                   ('both', 'Both')], 
-                                                  'Scheduling Interval', 
+    repair_scheduling_interval = fields.Selection([('odometer', _('Odometer')),
+                                                   ('time', _('Time')),
+                                                   ('both', _('Both'))],
+                                                  _('Scheduling Interval'),
                                                   default=_get_default_scheduling_interval)
-    repair_scheduling_time = fields.Integer('Interval (Mnths)', 
-                                            help="Interval between each servicing in months", 
+    repair_scheduling_time = fields.Integer(_('Interval (Mnths)'),
+                                            help=("Interval between each servicing in months"),
                                             default=_get_default_scheduling_time)
-    repair_scheduling_odometer = fields.Integer('Interval (odometer)', 
-                                                help="Interval between each servicing in months", 
+    repair_scheduling_odometer = fields.Integer(_('Interval (odometer)'),
+                                                help=_("Interval between each servicing in months"),
                                                 default=_get_default_scheduling_odometer)
-    schedule_ids = fields.Many2one('fleet.service.schedule', 'schedules', domain=[('state', '=', 'open')])
-    schedule_count = fields.Integer('schedule Count', readonly=True, compute="_get_schedule_count")
+    schedule_ids = fields.Many2one('fleet.service.schedule', _('schedules'), domain=[('state', '=', _('open'))])
+    schedule_count = fields.Integer(_('schedule Count'), readonly=True, compute="_get_schedule_count")
     
         
     @api.one 
@@ -241,8 +241,8 @@ class fleet_vehicle_log_services(models.Model):
         if len(self.schedule_id):
             self.schedule_id.service_log_id = self.id
     
-    name = fields.Char('Reference', readonly=True)
-    schedule_id = fields.Many2one('fleet.service.schedule', 'Service schedule', inverse="_set_schedule_id")
+    name = fields.Char(_('Reference'), readonly=True)
+    schedule_id = fields.Many2one('fleet.service.schedule', _('Service schedule'), inverse="_set_schedule_id")
     
     @api.model
     def create(self, data):

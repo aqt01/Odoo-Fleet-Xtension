@@ -29,7 +29,9 @@
     'depends': [
         'account', 'fleet_x_service'
     ],
-    'data': ['views/fleet_account.xml', 
+    'data': [
+        'views/fleet_account.xml',
+        'views/res_config.xml'
              ],
     'installable': True,
 }

@@ -19,57 +19,54 @@
 #
 ##############################################################################
 
-from openerp import fields, models, api
+from openerp import fields, models, api, _
+
 
 class fleet_config_settings(models.TransientModel):
     _inherit = 'fleet.config.settings'
 
-    default_analytic_account_id = fields.Many2one('account.analytic.account', 'Analytic Account', 
-                                          domain=[('type', '!=', 'view')])
-    default_account_debit = fields.Many2one('account.account', 'Debit Account', 
-                                    domain=[('type', '=', 'other')])
-    default_account_credit = fields.Many2one('account.account', 'Credit Account',  
-                                     domain=[('type', '=', 'other')])
-    default_journal_id = fields.Many2one('account.journal', 'Journal', )
+    default_analytic_account_id = fields.Many2one('account.analytic.account', _('Analytic Account'))
+    default_account_debit = fields.Many2one('account.account', _('Debit Account'))
+    default_account_credit = fields.Many2one('account.account', _('Credit Account'))
+    default_journal_id = fields.Many2one('account.journal', _('Journal'))
 
-    @api.one
-    def get_default_default_analytic_account_id(self):
-        res = self.env["ir.config_parameter"].get_param("fleet.default_analytic_account_id")
-        self.default_analytic_account_id = res or None
-    
-    @api.one
-    def set_default_analytic_account_id(self):
-        self.env["ir.config_parameter"].set_param("fleet.default_analytic_account_id", 
-                                                  self.default_analytic_account_id.id or None)
-        
-    @api.one
-    def get_default_default_account_debit(self):
-        res = self.env["ir.config_parameter"].get_param("fleet.default_account_debit")
-        self.default_account_debit = res or None
-    
-    @api.one
-    def set_default_account_debit(self):
-        self.env["ir.config_parameter"].set_param("fleet.default_account_debit", 
-                                                  self.default_account_debit.id or None)
-        
-    @api.one
-    def get_default_default_account_credit(self):
-        res = self.env["ir.config_parameter"].get_param("fleet.default_account_credit")
-        self.default_account_credit = res or None
-    
-    @api.one
-    def set_default_account_credit(self):
-        self.env["ir.config_parameter"].set_param("fleet.default_account_credit", 
-                                                  self.default_account_credit.id or None)
-        
-    @api.one
-    def get_default_default_journal_id(self):
-        res = self.env["ir.config_parameter"].get_param("fleet.default_journal_id")
-        self.default_journal_id = res or None
-    
-    @api.one
-    def set_default_journal_id(self):
-        self.env["ir.config_parameter"].set_param("fleet.default_journal_id", 
-                                                  self.default_journal_id.id or None)
-
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+    # @api.one
+    # def get_default_default_analytic_account_id(self):
+    #     res = self.env["ir.config_parameter"].get_param("fleet.default_analytic_account_id")
+    #     self.default_analytic_account_id = res or None
+    #
+    # @api.one
+    # def set_default_analytic_account_id(self):
+    #     self.env["ir.config_parameter"].set_param("fleet.default_analytic_account_id",
+    #                                               self.default_analytic_account_id.id or None)
+    #
+    # @api.one
+    # def get_default_default_account_debit(self):
+    #     res = self.env["ir.config_parameter"].get_param("fleet.default_account_debit")
+    #     self.default_account_debit = res or None
+    #
+    # @api.one
+    # def set_default_account_debit(self):
+    #     self.env["ir.config_parameter"].set_param("fleet.default_account_debit",
+    #                                               self.default_account_debit.id or None)
+    #
+    # @api.one
+    # def get_default_default_account_credit(self):
+    #     if self:
+    #         res = self.env["ir.config_parameter"].get_param("fleet.default_account_credit")
+    #         self.default_account_credit = res or None
+    #
+    # @api.one
+    # def set_default_account_credit(self):
+    #     self.env["ir.config_parameter"].set_param("fleet.default_account_credit",
+    #                                               self.default_account_credit.id or None)
+    #
+    # @api.one
+    # def get_default_default_journal_id(self):
+    #     res = self.env["ir.config_parameter"].get_param("fleet.default_journal_id")
+    #     self.default_journal_id = res or None
+    #
+    # @api.one
+    # def set_default_journal_id(self):
+    #     self.env["ir.config_parameter"].set_param("fleet.default_journal_id",
+    #                                               self.default_journal_id.id or None)

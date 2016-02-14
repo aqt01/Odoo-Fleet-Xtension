@@ -34,10 +34,9 @@ class fleet_config_settings(osv.osv_memory):
     _inherit = 'fleet.config.settings'
 
     _columns = {
-        'default_coupon_creation': fields.boolean('Automatic Coupon Creation', help="Automatically create coupons based on fueling policy"),
-        'default_price_per_lt': fields.float('Fuel Price per Liter'),
-        'default_efficiency_alert_buffer': fields.float('Fuel Efficiency Alert Buffer', help='Alerts managers to fuel log efficiency that if \
-         this amount greater than or lesser than average'),
+        'default_coupon_creation': fields.boolean(_('Automatic Coupon Creation'), help=_("Automatically create coupons based on fueling policy")),
+        'default_price_per_lt': fields.float(_('Fuel Price per Liter')),
+        'default_efficiency_alert_buffer': fields.float(_('Fuel Efficiency Alert Buffer'), help=_('Alerts managers to fuel log efficiency that if this amount greater than or lesser than average')),
 
     }
 

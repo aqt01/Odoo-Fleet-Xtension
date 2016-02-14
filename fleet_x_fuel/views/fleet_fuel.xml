@@ -164,7 +164,7 @@
 			<field name="model">fleet.vehicle</field>
 			<field name="inherit_id" ref="fleet_x.fleet_vehicle_form" />
 			<field name="arch" type="xml">
-				<group string="Cost Stats" position="after">
+				<group name="Cost Stats" position="after">
 					<group string="Fuel Stats">
 						<field name="last_fuel_id" />
 						<field name="last_fuel_date" />
@@ -175,7 +175,7 @@
 					</group>
 				</group>
 
-				<page string="Policies" position="inside">
+				<page name="Policies" position="inside">
 					<group string="Fueling Policy">
 						<group>
 							<field name="fuel_frequency" />
@@ -214,8 +214,8 @@
 						on_change="on_change_price_per_liter(liter,price_per_liter,amount)"
 						required="1" />
 				</field>
-
-				<group string="Additional Details" position="after">
+				<xpath expr="//form//sheet//group[2]//group[2]" position="after">
+				<!--<group string="Additional Details" position="after">-->
 					<group string="Statistics">
 						<field name="end_odometer" />
 						<field name="odometer_delta" />
@@ -225,8 +225,8 @@
 						<field name="efficiency_alert_type"
 							attrs="{'invisible': [('efficiency_alert','!=', True)]}" />
 					</group>
-				</group>
-
+				<!--</group>-->
+				</xpath>
 			</field>
 		</record>
 
@@ -240,24 +240,24 @@
 					<field name="efficiency_alert" invisible="1" />
 				</field>
 
-				<xpath expr="//tree[@string='Fuel Logs']" position="attributes">
+				<xpath expr="//tree" position="attributes">
 					<attribute name="colors">red:efficiency_alert==True;</attribute>
 				</xpath>
 
 			</field>
 		</record>
 
-		<record id="fleet_x_vehicle_cost_form_inherit" model="ir.ui.view">
-			<field name="name">fleet.vehicle.cost.form.inherit</field>
-			<field name="model">fleet.vehicle.cost</field>
-			<field name="inherit_id" ref="fleet.fleet_vehicle_costs_form" />
-			<field name="arch" type="xml">
-				<field name="vehicle_id" position="after">
-					<field name="type_id" invisible="1" />
+		<!--<record id="fleet_x_vehicle_cost_form_inherit" model="ir.ui.view">-->
+			<!--<field name="name">fleet.vehicle.cost.form.inherit</field>-->
+			<!--<field name="model">fleet.vehicle.cost</field>-->
+			<!--<field name="inherit_id" ref="fleet.fleet_vehicle_costs_form" />-->
+			<!--<field name="arch" type="xml">-->
+				<!--<field name="vehicle_id" position="after">-->
+					<!--<field name="type_id" invisible="1" />-->
 
-				</field>
-			</field>
-		</record>
+				<!--</field>-->
+			<!--</field>-->
+		<!--</record>-->
 
 		<record id="fleet_x_vehicle_fuel_log_search" model="ir.ui.view">
 			<field name="name">fleet.vehicle.log.fuel.search.inherit</field>

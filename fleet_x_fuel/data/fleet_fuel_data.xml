@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data noupdate="1">
-    	<record id="sequence_fuel_coupon" model="ir.sequence.type">
-		    <field name="name">Fuel Coupon</field>
-		    <field name="code">fleet.fuel.coupon.ref</field>
-		</record>
+    	<!--<record id="sequence_fuel_coupon" model="ir.sequence.type">-->
+		    <!--<field name="name">Fuel Coupon</field>-->
+		    <!--<field name="code">fleet.fuel.coupon.ref</field>-->
+		<!--</record>-->
 	
 		<record id="sequence_fuel_coupon_seq" model="ir.sequence">
 		    <field name="name">Fuel Coupon</field>

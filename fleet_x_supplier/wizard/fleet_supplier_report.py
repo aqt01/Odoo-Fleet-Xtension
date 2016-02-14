@@ -6,12 +6,12 @@ from openerp.tools.translate import _
 class wizard_report_fleet_supplier(osv.osv_memory):
 
     _name = 'wizard.report.fleet.supplier'
-    _description = 'Wizard that opens supplier cost logs'
+    _description = _('Wizard that opens supplier cost logs')
     _columns = {
-        'vendor_id': fields.many2one('res.partner', 'Supplier', domain="[('supplier','=',True)]", required=True),
-        'choose_date': fields.boolean('Choose a Particular Period'),
-        'date_from': fields.date('Date From'),
-        'date_to': fields.date('Date To'),
+        'vendor_id': fields.many2one('res.partner', _('Supplier'), domain="[('supplier','=',True)]", required=True),
+        'choose_date': fields.boolean(_('Choose a Particular Period')),
+        'date_from': fields.date(_('Date From')),
+        'date_to': fields.date(_('Date To')),
     }
 
     _defaults = {

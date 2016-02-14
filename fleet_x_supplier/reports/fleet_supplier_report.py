@@ -2,22 +2,27 @@ import time
 import datetime
 from dateutil.relativedelta import relativedelta
 
-from openerp import tools
+from openerp import tools, _
 from openerp.osv import fields, osv
+
 
 class report_fleet_supplier(osv.osv):
     _name = "report.fleet.supplier"
     _description = "Fleet Supplier"
     _auto = False
     _columns = {
-        'id' : fields.integer('ID'),
-        'vendor_id': fields.many2one('res.partner', 'Supplier', required=True, readonly=True),
-        'date': fields.date('Date Logged'),
-        'vehicle_id': fields.many2one('fleet.vehicle', 'Vehicle', required=True, help='Vehicle concerned by this log'),
-        'cost_subtype_id': fields.many2one('fleet.service.type', 'Type', help='Cost type purchased with this cost'),
-        'amount': fields.float('Total Amount'),
-        'cost_type': fields.selection([('contract', 'Contract'), ('services', 'Services'), ('fuel', 'Fuel'), ('other', 'Other')], 'Category of the cost', help='For internal purpose only', required=True),
-        'nbr':fields.integer('Count', readonly=True),
+        'id': fields.integer('ID'),
+        'vendor_id': fields.many2one('res.partner', _('Supplier'), required=True, readonly=True),
+        'date': fields.date(_('Date Logged')),
+        'vehicle_id': fields.many2one('fleet.vehicle', _('Vehicle'), required=True,
+                                      help=_('Vehicle concerned by this log')),
+        'cost_subtype_id': fields.many2one('fleet.service.type', _('Type'),
+                                           help=_('Cost type purchased with this cost')),
+        'amount': fields.float(_('Total Amount')),
+        'cost_type': fields.selection(
+            [('contract', _('Contract')), ('services', _('Services')), ('fuel', _('Fuel')), ('other', _('Other'))],
+            _('Category of the cost'), help=_('For internal purpose only'), required=True),
+        'nbr': fields.integer('Count', readonly=True),
 
     }
     _order = 'amount desc'
