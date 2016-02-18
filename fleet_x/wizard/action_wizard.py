@@ -45,7 +45,7 @@ class NewModule(models.TransientModel):
             order_lines = order_id.order_line.browse([])
             order_lines += sale_line_ref.new({
                 'product_id': 1,
-                'price_unit': 200,
+                'price_unit': vehicle.sale_price,
                 'product_uom_qty': 1
             })
 
