@@ -10,7 +10,6 @@
 
     'data': [
         'views/fleet_service.xml',
-        'views/res_config.xml',
         'data/fleet_service_data.xml',
         'reports/fleet_board_view.xml',
         'security/ir.model.access.csv'

@@ -1,0 +1,915 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fleet_x_fuel
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-11 15:46+0000\n"
+"PO-Revision-Date: 2016-02-11 12:01-0400\n"
+"Last-Translator: Eneldo Serrata <eneldoserrata@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_DO\n"
+"X-Generator: Poedit 1.8.7\n"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.report_fuel_coupon
+msgid "<strong>Authorized by (Signature)</strong>"
+msgstr "<strong>Autorizado por (firma)</strong>"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.report_fuel_coupon
+msgid "<strong>Fuel Type</strong>"
+msgstr "<strong>Tipo de combustible</strong>"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.report_fuel_coupon
+msgid "<strong>Issued On</strong>"
+msgstr "<strong>Incidente en</strong>"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.report_fuel_coupon
+msgid "<strong>Printed By:</strong>"
+msgstr "<strong>Impreso Por:</strong>"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.report_fuel_coupon
+msgid "<strong>Printing Date:</strong>"
+msgstr "<strong>Impreso en Fecha:</strong>"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.report_fuel_coupon
+msgid "<strong>Received by (Signature)</strong>"
+msgstr "<strong>Recibido por (firma)</strong>"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.report_fuel_coupon
+msgid "<strong>Total (Liters)</strong>"
+msgstr "<strong>Total (galones)</strong>"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.report_fuel_coupon
+msgid "<strong>Valid From</strong>"
+msgstr "<strong>Valido desde</strong>"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.report_fuel_coupon
+msgid "<strong>Valid To</strong>"
+msgstr "<strong>Valido hasta</strong>"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.report_fuel_coupon
+msgid "<strong>Validation Code</strong>"
+msgstr "<strong>Código de validación</strong>"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.report_fuel_coupon
+msgid "<strong>Vehicle Registration</strong>"
+msgstr "<strong>Registro del vehículo</strong>"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.report_fuel_coupon
+msgid "<strong>Vendor</strong>"
+msgstr "<strong>Proveedor</strong>"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_log_fuel_move_id
+msgid "Accounting Entry"
+msgstr "Asiento contable"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_message_needaction
+msgid "Action Needed"
+msgstr "Necesaria acción"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:119
+#: selection:fleet.fuel.coupon,state:0
+#, python-format
+msgid "Active"
+msgstr "Activo"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:302
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_log_fuel_efficiency_alert
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_x_vehicle_fuel_log_search
+#, python-format
+msgid "Alert"
+msgstr "Alerta"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_log_fuel_efficiency_alert_type
+msgid "Alert Type"
+msgstr "Tipo de alerta"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/res_config.py:39
+#, python-format
+msgid "Alerts managers to fuel log efficiency that if this amount greater than or lesser than average"
+msgstr "Alertas a los administradores de registro eficacia de combustible eso si esta cantidad mayor que o menor que el promedio"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:193
+#, python-format
+msgid "Allocated fuel quantity should be greater than zero"
+msgstr "La cantidad debe ser mayor que 0"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:367
+#, python-format
+msgid "Amount being logged is more than the remaining amount on the liter"
+msgstr "Cantidad que se está registrando es más que la cantidad restante en galon"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_filter
+msgid "Auto Generated"
+msgstr "Generado automáticamente"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:117
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_auto_generated
+#, python-format
+msgid "Auto generated"
+msgstr "Generado automáticamente"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/res_config.py:37
+#: model:ir.ui.view,arch_db:fleet_x_fuel.view_fleet_config_settings_inherit
+#, python-format
+msgid "Automatic Coupon Creation"
+msgstr "Creación automática del cupón"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/res_config.py:37
+#, python-format
+msgid "Automatically create coupons based on fueling policy"
+msgstr "Crear automáticamente cupones basados en la política de carga"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:129
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_stat_average_efficiency
+#, python-format
+msgid "Average KM/L"
+msgstr "Promedio KM/Galon"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:122
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:139
+#: selection:fleet.fuel.coupon,stat_last_coupon_state:0
+#: selection:fleet.fuel.coupon,state:0
+#, python-format
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_form
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_form
+msgid "Consumption Stats"
+msgstr "Estadísticas de consumo"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_x_vehicle_fuel_log_search
+msgid "Consumption by Month"
+msgstr "Consumo por mes"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_x_vehicle_fuel_log_search
+msgid "Consumption by Year"
+msgstr "Consumo por año"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:294
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_log_fuel_coupon_id
+#, python-format
+msgid "Coupon"
+msgstr "Cupón"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_fuel_coupon_count
+msgid "Coupon Count"
+msgstr "Cantidad de cupónes"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:23
+#: selection:fleet.vehicle,fuel_frequency:0
+#, python-format
+msgid "Daily"
+msgstr "Diario"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_filter
+msgid "Date"
+msgstr "Fecha"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,help:fleet_x_fuel.field_fleet_fuel_coupon_message_last_post
+msgid "Date of the last message posted on the record."
+msgstr "Fecha del último mensaje publicado en el registro."
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,help:fleet_x_fuel.field_fleet_vehicle_last_fuel_date
+msgid "Date when the cost has been executed"
+msgstr "Fecha en la que se ha ejecutado el coste"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:111
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_delivered_on
+#, python-format
+msgid "Delivered On"
+msgstr "Entregado en"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:27
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:106
+#, python-format
+msgid "Diesel"
+msgstr "Diesel"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_display_name
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_report_fleet_x_fuel_report_fuel_coupon_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:300
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_log_fuel_odometer_delta
+#, python-format
+msgid "Distance Traveled"
+msgstr "Distancia recorrida"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:36
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:127
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_stat_distance_delta
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_last_fuel_distance
+#, python-format
+msgid "Distance since Refuel"
+msgstr "Distancia desde el reportaje"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:120
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:137
+#: selection:fleet.fuel.coupon,stat_last_coupon_state:0
+#: selection:fleet.fuel.coupon,state:0
+#, python-format
+msgid "Done"
+msgstr "Realizado"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:118
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:135
+#: selection:fleet.fuel.coupon,stat_last_coupon_state:0
+#: selection:fleet.fuel.coupon,state:0
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_filter
+#, python-format
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_form
+msgid "Efficiency"
+msgstr "Eficiencia"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:28
+#, python-format
+msgid "Electric"
+msgstr "Eléctrico"
+
+#. module: fleet_x_fuel
+#: model:ir.model,name:fleet_x_fuel.model_fleet_fuel_coupon
+msgid "Email Thread"
+msgstr "Hilo de mensajes"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:299
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_log_fuel_end_odometer
+#, python-format
+msgid "End Odometer"
+msgstr "Final odómetro"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:121
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:138
+#: selection:fleet.fuel.coupon,stat_last_coupon_state:0
+#: selection:fleet.fuel.coupon,state:0
+#, python-format
+msgid "Expired"
+msgstr "Expirado"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canales)"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Empresas)"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_fuel_amount
+msgid "Fuel Amount"
+msgstr "Cantidad de combustible"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_filter
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_form
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_tree
+msgid "Fuel Coupon"
+msgstr "Cupones de combustible"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.report_fuel_coupon
+msgid "Fuel Coupon -"
+msgstr "Cupones de combustible-"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:21
+#: model:ir.actions.act_window,name:fleet_x_fuel.open_fleet_fuel_coupon
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_fuel_coupon_ids
+#: model:ir.ui.menu,name:fleet_x_fuel.menu_fleet_fuel_coupon
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_x_fuel_vehicle_form
+#, python-format
+msgid "Fuel Coupons"
+msgstr "Cupones de combustible"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:301
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_log_fuel_efficiency
+#, python-format
+msgid "Fuel Efficiency"
+msgstr "Eficiencia de combustible"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/res_config.py:39
+#: model:ir.ui.view,arch_db:fleet_x_fuel.view_fleet_config_settings_inherit
+#, python-format
+msgid "Fuel Efficiency Alert Buffer"
+msgstr "Eficiencia de combustible alerta Buffer"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:112
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_log_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_form
+#, python-format
+msgid "Fuel Logs"
+msgstr "Registros de combustible"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/res_config.py:38
+#: model:ir.ui.view,arch_db:fleet_x_fuel.view_fleet_config_settings_inherit
+#, python-format
+msgid "Fuel Price per Liter"
+msgstr "Precio por galón de combustible"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.view_fleet_config_settings_inherit
+msgid "Fuel Setting"
+msgstr "Ajuste de combustible"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_x_fuel_vehicle_form
+msgid "Fuel Stats"
+msgstr "Estadísticas de combustible"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:29
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:106
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_fuel_type
+#, python-format
+msgid "Fuel Type"
+msgstr "Tipo de combustible"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:29
+#: model:ir.model.fields,help:fleet_x_fuel.field_fleet_fuel_coupon_fuel_type
+#, python-format
+msgid "Fuel Used by the vehicle"
+msgstr "Combustible usado por el vehículo"
+
+#. module: fleet_x_fuel
+#: model:ir.model,name:fleet_x_fuel.model_fleet_vehicle_log_fuel
+msgid "Fuel log for vehicles"
+msgstr "Registro de combustible para los vehículos"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:25
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_fuel_frequency
+#, python-format
+msgid "Fueling Frequency"
+msgstr "Frecuencia de abastecimiento de combustible"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_x_fuel_vehicle_form
+msgid "Fueling Policy"
+msgstr "Política de abastecimiento de combustible"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:28
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:106
+#, python-format
+msgid "GLP"
+msgstr "GLP"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:27
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:106
+#, python-format
+msgid "Gasoline"
+msgstr "Gasolina"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_filter
+msgid "Group By..."
+msgstr "Agrupar por..."
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:28
+#, python-format
+msgid "Hybrid"
+msgstr "Híbrido"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_id
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_report_fleet_x_fuel_report_fuel_coupon_id
+msgid "ID"
+msgstr "ID"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,help:fleet_x_fuel.field_fleet_fuel_coupon_message_unread
+msgid "If checked new messages require your attention."
+msgstr "Si está marcado, hay nuevos mensajes que requieren su atención"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,help:fleet_x_fuel.field_fleet_fuel_coupon_message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado, hay nuevos mensajes que requieren su atención."
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_filter
+msgid "In Progress"
+msgstr "En progreso"
+
+#. module: fleet_x_fuel
+#: model:ir.model,name:fleet_x_fuel.model_fleet_vehicle
+msgid "Information on a vehicle"
+msgstr "Información en un vehículo"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_message_is_follower
+msgid "Is Follower"
+msgstr "Es un seguidor"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:30
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_next_coupon_issue
+#, python-format
+msgid "Issue Coupon on"
+msgstr "Incidente de cupos en"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:110
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_issued_on
+#, python-format
+msgid "Issued On"
+msgstr "Incidente en"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:38
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:128
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_stat_efficiency
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_last_fuel_efficiency
+#, python-format
+msgid "KM/L since Refuel"
+msgstr "Distancia desde el reporte"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:32
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_km_per_lit
+#, python-format
+msgid "Km/L"
+msgstr "Km/Galon"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:133
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_stat_last_coupon_id
+#, python-format
+msgid "Last Coupon"
+msgstr "Último cupón"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:34
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_last_fuel_id
+#, python-format
+msgid "Last Fuel Log"
+msgstr "Último registro de combustible"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_message_last_post
+msgid "Last Message Date"
+msgstr "Fecha del último mensaje"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon___last_update
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_report_fleet_x_fuel_report_fuel_coupon___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_form
+msgid "Last Refuel"
+msgstr "Último llenado"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:40
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:130
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_stat_last_date
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_last_fuel_date
+#, python-format
+msgid "Last Refuel Date"
+msgstr "Last Refuel Date"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:41
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:131
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_stat_last_liter
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_last_fuel_liter
+#, python-format
+msgid "Last Refuel Liters"
+msgstr "Último reporte de galones"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:113
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_amount
+#, python-format
+msgid "Liters"
+msgstr "Galón"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_form
+msgid "Log Fuel Collected"
+msgstr "Combustible de registro recogido"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:260
+#, python-format
+msgid "Log Fuel Coupon"
+msgstr "Cupones de combustible de registro"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_filter
+msgid "Manually Entered"
+msgstr "Entrado manualmente"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_x_vehicle_fuel_log_search
+msgid "Month"
+msgstr "Mes"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:25
+#: selection:fleet.vehicle,fuel_frequency:0
+#, python-format
+msgid "Monthly"
+msgstr "Mensual"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:298
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_log_fuel_right_id
+#, python-format
+msgid "Next Fuel Log"
+msgstr "Próximo registro de combustible"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:308
+#: sql_constraint:fleet.vehicle.log.fuel:0
+#, python-format
+msgid "Next fuel log in fuel log chain should be unique"
+msgstr "Próximo registro de combustible en la cadena de registro de combustible debe ser único"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:115
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_note
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_form
+#, python-format
+msgid "Note"
+msgstr "Nota"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,help:fleet_x_fuel.field_fleet_fuel_coupon_message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensajes que requieren una acción"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,help:fleet_x_fuel.field_fleet_fuel_coupon_message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensajes no leidos"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:125
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_odometer
+#, python-format
+msgid "Odometer Value"
+msgstr "Valor del odómetro"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:125
+#: model:ir.model.fields,help:fleet_x_fuel.field_fleet_fuel_coupon_odometer
+#, python-format
+msgid "Odometer measure of the vehicle at the moment of issue"
+msgstr "Medida del Odómetro del vehículo en el momento de la edición"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,help:fleet_x_fuel.field_fleet_vehicle_log_fuel_end_odometer
+msgid "Odometer measure of the vehicle at the moment of this log"
+msgstr "Medida del odómetro del vehículo en el momento de registro"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:186
+#, python-format
+msgid "Odometer value cannot be lesser than vehicle's current odometer reading"
+msgstr "Valor del Odómetro no puede ser menor que la actual lectura de Odómetro del vehículo"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:304
+#: selection:fleet.vehicle.log.fuel,efficiency_alert_type:0
+#, python-format
+msgid "Over Utilization"
+msgstr "Sobre la utilización"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_x_vehicle_fuel_log_search
+msgid "Over Utilized"
+msgstr "Más utilizados"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:378
+#, python-format
+msgid "Please submit a liter amount reading before you can proceed"
+msgstr "Por favor presentar una lectura de la cantidad de Galones antes de que se puede proceder"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:376
+#, python-format
+msgid "Please submit an odometer reading before you can proceed"
+msgstr "Por favor enviar una lectura del Odómetro antes de que puede proceder"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:296
+#, python-format
+msgid "Price Per Liter"
+msgstr "Precio por galón de combustible"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_form
+msgid "Print Coupon"
+msgstr "Imprimir Cupón"
+
+#. module: fleet_x_fuel
+#: model:ir.actions.report.xml,name:fleet_x_fuel.action_report_fuel_coupon
+msgid "Print Fuel Coupon"
+msgstr "Imprimir cupón de combustible"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_log_fuel_ref
+msgid "Ref"
+msgstr "Ref"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:104
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_name
+#, python-format
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:140
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_amount_remaining
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_stat_last_coupon_amount_remaining
+#, python-format
+msgid "Remaining Liters"
+msgstr "Galones restantes"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_form
+msgid "Set to Draft"
+msgstr "Cambiar a borrador"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_filter
+msgid "Source"
+msgstr "Origen"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:122
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:139
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_stat_last_coupon_state
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_state
+#, python-format
+msgid "State"
+msgstr "Estado"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_vehicle_log_fuel_form
+msgid "Statistics"
+msgstr "Estadísticas"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_filter
+msgid "Status"
+msgstr "Estado"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:123
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:295
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_vendor_id
+#, python-format
+msgid "Supplier"
+msgstr "Proveedor"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:237
+#, python-format
+msgid "This option should only be used for a single id at a time."
+msgstr "Esta opción debe ser utilizada para un identificador único en un momento."
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:142
+#: sql_constraint:fleet.fuel.coupon:0
+#, python-format
+msgid "This validation code already exists"
+msgstr "Ya existe este código de validación"
+
+#. module: fleet_x_fuel
+#: model:ir.actions.act_window,name:fleet_x_fuel.action_fuelkmpl_most_board
+#: model:ir.ui.view,arch_db:fleet_x_fuel.board_fleet_dash_view
+msgid "Top Fuel Consumers"
+msgstr "Consumidores de combustible superior"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:303
+#: selection:fleet.vehicle.log.fuel,efficiency_alert_type:0
+#, python-format
+msgid "Under Utilization"
+msgstr "Bajo utilización"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_x_vehicle_fuel_log_search
+msgid "Under Utilized"
+msgstr "Subutilizados"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_message_unread
+msgid "Unread Messages"
+msgstr "Mensajes sin leer"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes no leidos"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:108
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_valid_from
+#, python-format
+msgid "Valid From"
+msgstr "Válida desde"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:109
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_valid_to
+#, python-format
+msgid "Valid To"
+msgstr "Válida hasta"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:116
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_code
+#, python-format
+msgid "Validation Code"
+msgstr "código de validación"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_form
+msgid "Validity"
+msgstr "Validez"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:105
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_fuel_coupon_vehicle_id
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_fuel_coupon_filter
+#, python-format
+msgid "Vehicle"
+msgstr "Vehículo"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_log_fuel_vehicle_location_id
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_x_vehicle_fuel_log_search
+msgid "Vehicle Location"
+msgstr "Ubicación del vehículo"
+
+#. module: fleet_x_fuel
+#: model:ir.model.fields,field_description:fleet_x_fuel.field_fleet_vehicle_log_fuel_vehicle_type_id
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_x_vehicle_fuel_log_search
+msgid "Vehicle Type"
+msgstr "Tipo de vehículo"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:369
+#, python-format
+msgid "Vehicle cannot be different from that for which the coupon was issued"
+msgstr "Vehículo no puede ser distinto de la que se emitió el cupón"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_vehicle_fuelkmpl_tree
+msgid "Vehicles"
+msgstr "Vehículos"
+
+#. module: fleet_x_fuel
+#: model:ir.actions.act_window,name:fleet_x_fuel.fleet_vehicle_log_fuel_act_alert
+msgid "Vehicles Fuel Logs"
+msgstr "Registros de combustible de los vehículos"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:24
+#: selection:fleet.vehicle,fuel_frequency:0
+#, python-format
+msgid "Weekly"
+msgstr "Semanalmente"
+
+#. module: fleet_x_fuel
+#: model:ir.ui.view,arch_db:fleet_x_fuel.fleet_x_vehicle_fuel_log_search
+msgid "Year"
+msgstr "Año"
+
+#. module: fleet_x_fuel
+#: selection:fleet.fuel.coupon,stat_last_coupon_state:0
+msgid "_(Active"
+msgstr "_(Active"
+
+#. module: fleet_x_fuel
+#: code:addons/fleet_x_fuel/models/fleet_fuel.py:283
+#, python-format
+msgid "draft"
+msgstr "borrador"
+
+#. module: fleet_x_fuel
+#: model:ir.model,name:fleet_x_fuel.model_fleet_config_settings
+msgid "fleet.config.settings"
+msgstr "fleet.config.settings"
+
+#. module: fleet_x_fuel
+#: model:ir.model,name:fleet_x_fuel.model_report_fleet_x_fuel_report_fuel_coupon
+msgid "report.fleet_x_fuel.report_fuel_coupon"
+msgstr "report.fleet_x_fuel.report_fuel_coupon"

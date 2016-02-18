@@ -102,7 +102,11 @@ class fleet_vehicle_department(models.Model):
 
 class fleet_vehicle(models.Model):
     _inherit = "fleet.vehicle"
+    _order = 'license_plate asc'
 
+    sale_ids = fields.One2many("sale.order", "vehicle_id", string="Cotizaciones")
+    payment_ids = fields.One2many("account.payment", "vehicle_id", string="Pagos")
+    transmission = fields.Selection([('manual', 'Manual'), ('automatic', 'Automatic'), ('rictronic', 'Trictronic')], 'Transmission', help='Transmission Used by the vehicle')
     odometer_ids = fields.One2many('fleet.vehicle.odometer', 'vehicle_id',
                                    _('Odometers'), readonly=1)
     cost_ids = fields.One2many('fleet.vehicle.cost', 'vehicle_id', _('Cost'),
@@ -120,12 +124,8 @@ class fleet_vehicle(models.Model):
 
     # properties
     manufacture_year = fields.Char(_('Year of Manufacture'), size=4)
-    ownership = fields.Selection([
-        ('owned', _('Owned')),
-        ('private', _('Private (owned by employee)')),
-        ('leased', _('Leased')),
-        ('rented', _('Rented')),
-    ], _('Ownership'), required=False, default="owned")
+    register_year = fields.Char(u'Matriculación', size=4)
+    ownership = fields.Many2one("res.partner", _('Ownership'), required=False)
     fueltankcap = fields.Float(_('Fuel Tank Capacity'))
     acquisition_date = fields.Date(_('Acquisition Date'), required=True,
                                    help=_('Date of purchase'),
@@ -154,6 +154,9 @@ class fleet_vehicle(models.Model):
                                inverse="_set_odometer_at_purchase")
     warrexp = fields.Date('Date', help=_("Expiry date of warranty"))
     warrexpmil = fields.Integer(_('(or) Kilometer'), help=_("Expiry Kilometer of warranty"))
+    license_plate = fields.Char('License Plate', required=False, help='License plate number of the vehicle (ie: plate number for a car)', copy=False)
+    vin_sn = fields.Char('Chassis Number', required=True, help='Unique number written on the vehicle motor (VIN/SN number)', copy=False)
+    sale_price = fields.Float("Precio de venta")
 
     _sql_constraints = [
         ('uniq_license_plate', 'unique(license_plate)', _('The registration # of the vehicle must be unique !')),
@@ -235,12 +238,6 @@ class fleet_vehicle(models.Model):
         action['context'] = {'default_res_model': self._name, 'default_res_id': ids[0]}
         action['domain'] = str(['&', ('res_model', '=', self._name), ('res_id', 'in', ids)])
         return action
-
-    def create_quotation(self):
-        pass
-
-    def create_payment(self):
-        pass
 
 
 class fleet_vehicle_model(models.Model):

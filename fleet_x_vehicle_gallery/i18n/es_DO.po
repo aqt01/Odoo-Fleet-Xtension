@@ -1,0 +1,145 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fleet_x_vehicle_gallery
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-11 16:23+0000\n"
+"PO-Revision-Date: 2016-02-11 12:25-0400\n"
+"Last-Translator: Eneldo Serrata <eneldoserrata@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_DO\n"
+"X-Generator: Poedit 1.8.7\n"
+
+#. module: fleet_x_vehicle_gallery
+#: model:ir.model.fields,field_description:fleet_x_vehicle_gallery.field_fleet_vehicle_gallery_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: fleet_x_vehicle_gallery
+#: model:ir.model.fields,field_description:fleet_x_vehicle_gallery.field_fleet_vehicle_gallery_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: fleet_x_vehicle_gallery
+#: code:addons/fleet_x_vehicle_gallery/models/fleet_vehicle_gallery.py:10
+#: model:ir.model.fields,field_description:fleet_x_vehicle_gallery.field_fleet_vehicle_gallery_name
+#, python-format
+msgid "Date"
+msgstr "Fecha"
+
+#. module: fleet_x_vehicle_gallery
+#: model:ir.model.fields,field_description:fleet_x_vehicle_gallery.field_fleet_vehicle_gallery_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: fleet_x_vehicle_gallery
+#: code:addons/fleet_x_vehicle_gallery/models/fleet_vehicle_gallery.py:13
+#: model:ir.model.fields,field_description:fleet_x_vehicle_gallery.field_fleet_vehicle_gallery_front_view
+#, python-format
+msgid "Front View"
+msgstr "Vista frontal"
+
+#. module: fleet_x_vehicle_gallery
+#: code:addons/fleet_x_vehicle_gallery/models/fleet_vehicle_gallery.py:22
+#: model:ir.model.fields,field_description:fleet_x_vehicle_gallery.field_fleet_vehicle_gallery_ids
+#, python-format
+msgid "Gallaries"
+msgstr "Inspecciones"
+
+#. module: fleet_x_vehicle_gallery
+#: model:ir.ui.view,arch_db:fleet_x_vehicle_gallery.fleet_vehicle_form
+#: model:ir.ui.view,arch_db:fleet_x_vehicle_gallery.fleet_vehicle_gallery_tree
+msgid "Galleries"
+msgstr "Inspecciones"
+
+#. module: fleet_x_vehicle_gallery
+#: model:ir.ui.view,arch_db:fleet_x_vehicle_gallery.fleet_vehicle_gallery_form
+msgid "Gallery"
+msgstr "Inspección"
+
+#. module: fleet_x_vehicle_gallery
+#: code:addons/fleet_x_vehicle_gallery/models/fleet_vehicle_gallery.py:24
+#: model:ir.model.fields,field_description:fleet_x_vehicle_gallery.field_fleet_vehicle_gallery_count
+#, python-format
+msgid "Gallery Count"
+msgstr "Cantidad"
+
+#. module: fleet_x_vehicle_gallery
+#: model:ir.model.fields,field_description:fleet_x_vehicle_gallery.field_fleet_vehicle_gallery_id
+msgid "ID"
+msgstr "ID"
+
+#. module: fleet_x_vehicle_gallery
+#: model:ir.model,name:fleet_x_vehicle_gallery.model_fleet_vehicle
+msgid "Information on a vehicle"
+msgstr "Información en un vehículo"
+
+#. module: fleet_x_vehicle_gallery
+#: model:ir.model.fields,field_description:fleet_x_vehicle_gallery.field_fleet_vehicle_gallery___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: fleet_x_vehicle_gallery
+#: model:ir.model.fields,field_description:fleet_x_vehicle_gallery.field_fleet_vehicle_gallery_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: fleet_x_vehicle_gallery
+#: model:ir.model.fields,field_description:fleet_x_vehicle_gallery.field_fleet_vehicle_gallery_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: fleet_x_vehicle_gallery
+#: code:addons/fleet_x_vehicle_gallery/models/fleet_vehicle_gallery.py:14
+#: model:ir.model.fields,field_description:fleet_x_vehicle_gallery.field_fleet_vehicle_gallery_left_side_view
+#, python-format
+msgid "Left Side View"
+msgstr "Vista lateral izquierda"
+
+#. module: fleet_x_vehicle_gallery
+#: code:addons/fleet_x_vehicle_gallery/models/fleet_vehicle_gallery.py:17
+#: model:ir.model.fields,field_description:fleet_x_vehicle_gallery.field_fleet_vehicle_gallery_odometer_view
+#, python-format
+msgid "Odometer View"
+msgstr "Vista del odómetro"
+
+#. module: fleet_x_vehicle_gallery
+#: code:addons/fleet_x_vehicle_gallery/models/fleet_vehicle_gallery.py:16
+#: model:ir.model.fields,field_description:fleet_x_vehicle_gallery.field_fleet_vehicle_gallery_rear_view
+#, python-format
+msgid "Rear View"
+msgstr "Vista trasera"
+
+#. module: fleet_x_vehicle_gallery
+#: code:addons/fleet_x_vehicle_gallery/models/fleet_vehicle_gallery.py:15
+#: model:ir.model.fields,field_description:fleet_x_vehicle_gallery.field_fleet_vehicle_gallery_right_side_view
+#, python-format
+msgid "Right Side View"
+msgstr "Vista lateral derecha"
+
+#. module: fleet_x_vehicle_gallery
+#: model:ir.ui.view,arch_db:fleet_x_vehicle_gallery.view_fleet_vehicle_gallery_filter
+msgid "Search Galaries"
+msgstr "Búsqueda Galaries"
+
+#. module: fleet_x_vehicle_gallery
+#: model:ir.actions.act_window,name:fleet_x_vehicle_gallery.open_fleet_vehicle_gallery
+msgid "Vehicle Gallery"
+msgstr "Inspecciónes de vehículos"
+
+#. module: fleet_x_vehicle_gallery
+#: model:ir.model.fields,field_description:fleet_x_vehicle_gallery.field_fleet_vehicle_gallery_vehicle_id
+msgid "Vehicle id"
+msgstr "Vehicle id"
+
+#. module: fleet_x_vehicle_gallery
+#: model:ir.model,name:fleet_x_vehicle_gallery.model_fleet_vehicle_gallery
+msgid "fleet.vehicle.gallery"
+msgstr "fleet.vehicle.gallery"

@@ -1,0 +1,695 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fleet_x
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-11 15:17+0000\n"
+"PO-Revision-Date: 2016-02-11 11:28-0400\n"
+"Last-Translator: Eneldo Serrata <eneldoserrata@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_DO\n"
+"X-Generator: Poedit 1.8.7\n"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_inv_ref
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_inv_ref
+msgid "Invoice Reference"
+msgstr "Número de la factura o NCF"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_purchaser_id
+msgid "Contractor"
+msgstr "Responsable"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_insurer_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_vendor_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_vendor_id
+msgid "Vendor"
+msgstr "Proveedor"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_purchaser_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_purchaser_id
+msgid "Purchaser"
+msgstr "Responsable"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_horsepower_tax
+msgid "Horsepower Taxation"
+msgstr "CC"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.fleet_vehicle_form
+msgid "(date) or"
+msgstr "(fecha) o"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.fleet_vehicle_form
+msgid "(distance)"
+msgstr "(distancia)"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:155
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_warrexpmil
+#, python-format
+msgid "(or) Kilometer"
+msgstr "(o) Kilómetro"
+
+#. module: fleet_x
+#: model:ir.actions.act_window,help:fleet_x.open_board_fleet_dash_action
+msgid "<b>The fleet dashboard is empty.</b>"
+msgstr "<b>El tablero de mandos Vehículo está vacío.</b>"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:129
+#, python-format
+msgid "Acquisition Date"
+msgstr "Fecha de adquisición"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:115
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_active
+#, python-format
+msgid "Active"
+msgstr "Activo"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.view_fleet_config_settings
+msgid "Apply"
+msgstr "Aplicar"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.view_fleet_config_settings
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:78
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_department_child_ids
+#, python-format
+msgid "Child Departments"
+msgstr "Departamentos hijos"
+
+#. module: fleet_x
+#: model:ir.actions.act_window,help:fleet_x.open_module_tree_department
+msgid "Click to create a department."
+msgstr "Haga clic para crear un departamento."
+
+#. module: fleet_x
+#: model:ir.actions.act_window,help:fleet_x.open_module_tree_location
+msgid "Click to create a location/deployment"
+msgstr "Haga clic para agregar una ubicación."
+
+#. module: fleet_x
+#: model:ir.actions.act_window,help:fleet_x.open_module_tree_vehicle_type
+msgid "Click to create a vehicle type."
+msgstr "Haga clic para crear un tipo de vehículo."
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.view_res_contract_filter
+msgid "Closed"
+msgstr "Cerrada"
+
+#. module: fleet_x
+#: model:ir.actions.act_window,name:fleet_x.action_fleet_config
+#: model:ir.ui.view,arch_db:fleet_x.view_fleet_config_settings
+msgid "Configure Fleet"
+msgstr "Gestión de Vehículos"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.view_fleet_config_settings
+msgid "Configure Fleet Management System"
+msgstr "Configurar sistema de gestión de Vehículos"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:107
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_cost_ids
+#, python-format
+msgid "Cost"
+msgstr "Costo"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.fleet_vehicle_form
+msgid "Cost Stats"
+msgstr "Estadísticas de costo"
+
+#. module: fleet_x
+#: model:ir.model,name:fleet_x.model_fleet_vehicle_cost
+msgid "Cost related to a vehicle"
+msgstr "Coste relativo al vehículo"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:141
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_costpm
+#, python-format
+msgid "Cost/KM"
+msgstr "Costo/KM"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:143
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_costpmon
+#, python-format
+msgid "Cost/Mnth"
+msgstr "Costo/mes"
+
+#. module: fleet_x
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_config_settings_create_uid
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_department_create_uid
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_location_create_uid
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_type_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: fleet_x
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_config_settings_create_date
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_department_create_date
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_location_create_date
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_type_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: fleet_x
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_warrexp
+msgid "Date"
+msgstr "Fecha"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:130
+#, python-format
+msgid "Date of purchase"
+msgstr "Fecha de compra"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:109
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_department_id_2259
+#: model:ir.ui.view,arch_db:fleet_x.fleet_vehicle_search
+#: model:ir.ui.view,arch_db:fleet_x.view_department_form
+#, python-format
+msgid "Department"
+msgstr "Departamento"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:110
+#: model:ir.model.fields,help:fleet_x.field_fleet_vehicle_department_id_2259
+#, python-format
+msgid "Department of the vehicle"
+msgstr "Departamento de vehículo"
+
+#. module: fleet_x
+#: model:ir.actions.act_window,name:fleet_x.open_module_tree_department
+#: model:ir.ui.menu,name:fleet_x.menu_department_tree
+#: model:ir.ui.view,arch_db:fleet_x.view_department_tree
+msgid "Departments"
+msgstr "Departamentos"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.view_department_form
+msgid "Description"
+msgstr "Descripción"
+
+#. module: fleet_x
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_config_settings_display_name
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_location_display_name
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_type_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:139
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_distance
+#, python-format
+msgid "Distance covered since purchase"
+msgstr "Distancia recorrida desde la compra"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.fleet_vehicle_form
+msgid "Documents"
+msgstr "Documentos"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.fleet_vehicle_costs_search
+msgid "Employees"
+msgstr "Empleados"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:155
+#: model:ir.model.fields,help:fleet_x.field_fleet_vehicle_warrexpmil
+#, python-format
+msgid "Expiry Kilometer of warranty"
+msgstr "Kilómetro de la caducidad de la garantía"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:154
+#: model:ir.model.fields,help:fleet_x.field_fleet_vehicle_warrexp
+#, python-format
+msgid "Expiry date of warranty"
+msgstr "Fecha de vencimiento de la garantía"
+
+#. module: fleet_x
+#: model:ir.ui.menu,name:fleet_x.menu_fleet_config
+msgid "Fleet"
+msgstr "Vehículo"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.board_fleet_dash_view
+msgid "Fleet Dashboard"
+msgstr "Gestión de Vehículos"
+
+#. module: fleet_x
+#: model:ir.actions.act_window,name:fleet_x.open_board_fleet_dash_action
+#: model:ir.ui.menu,name:fleet_x.menu_board_fleet_dash
+msgid "Fleet Statistics"
+msgstr "Estadísticas de Vehículo"
+
+#. module: fleet_x
+#: model:ir.actions.act_window,help:fleet_x.open_module_tree_department
+msgid ""
+"Fleet department structure is used to manage departments\n"
+"\t\t\t\t\tthat vehicles are assigned to"
+msgstr "Estructura Departamento de Vehículo se utiliza para administrar departamentos de vehículos asignados a"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:128
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_fueltankcap
+#, python-format
+msgid "Fuel Tank Capacity"
+msgstr "Capacidad del depósito de combustible"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.view_fleet_config_settings
+msgid "General Setting"
+msgstr "Ajustes generales"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.fleet_vehicle_log_services_search
+#: model:ir.ui.view,arch_db:fleet_x.view_res_contract_filter
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: fleet_x
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_config_settings_id
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_department_id
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_location_id
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_type_id
+msgid "ID"
+msgstr "ID"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.view_res_contract_filter
+msgid "In-Process."
+msgstr "In-Process."
+
+#. module: fleet_x
+#: model:ir.model,name:fleet_x.model_fleet_vehicle
+msgid "Information on a vehicle"
+msgstr "Información en un vehículo"
+
+#. module: fleet_x
+#: model:fleet.service.type,name:fleet_x.type_contract_insurance
+msgid "Insurance"
+msgstr "Seguro"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:114
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_note
+#: model:ir.ui.view,arch_db:fleet_x.fleet_vehicle_form
+#, python-format
+msgid "Internal Note"
+msgstr "Nota interna"
+
+#. module: fleet_x
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_config_settings___last_update
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_department___last_update
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_location___last_update
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_type___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: fleet_x
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_config_settings_write_uid
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_department_write_uid
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_location_write_uid
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_type_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: fleet_x
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_config_settings_write_date
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_department_write_date
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_location_write_date
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_type_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:125 selection:fleet.vehicle,ownership:0
+#, python-format
+msgid "Leased"
+msgstr "Alquilado"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.fleet_vehicle_search
+msgid "Location"
+msgstr "Ubicación"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:137
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_lmiles
+#, python-format
+msgid "Miles per year"
+msgstr "Millas por año"
+
+#. module: fleet_x
+#: model:ir.model,name:fleet_x.model_fleet_vehicle_model
+msgid "Model of a vehicle"
+msgstr "Modelo de un vehículo"
+
+#. module: fleet_x
+#: model:ir.actions.act_window,name:fleet_x.action_costkm_most_board
+#: model:ir.actions.act_window,name:fleet_x.action_costmon_most_board
+msgid "Most Expensive"
+msgstr "Más caro"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:13
+#: code:addons/fleet_x/models/fleet.py:54
+#: code:addons/fleet_x/models/fleet.py:73
+#: code:addons/fleet_x/models/fleet.py:74
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_department_display_name
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_department_name
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_location_name
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_type_name
+#, python-format
+msgid "Name"
+msgstr "Nombre"
+
+#. module: fleet_x
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_department_note
+msgid "Note"
+msgstr "Nota"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:112
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_attachment_count
+#, python-format
+msgid "Number of Attachments"
+msgstr "Número de adjuntos"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:117
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_odometer_date_2268
+#, python-format
+msgid "Odometer Date"
+msgstr "Fecha del odómetro"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:152
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_podometer
+#, python-format
+msgid "Odometer at Purchase"
+msgstr "Odómetro en compra"
+
+#. module: fleet_x
+#: model:ir.model,name:fleet_x.model_fleet_vehicle_odometer
+msgid "Odometer log for a vehicle"
+msgstr "Registro de Odómetro de un vehículo"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:47
+#, python-format
+msgid "Odometer reading can not be greater than the next recorded odometer reading for this vehicle"
+msgstr "Lectura del Odómetro no puede ser mayor que el Odómetro grabado siguiente lectura para este vehículo"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:44
+#, python-format
+msgid "Odometer reading can not be lesser than the last recorded odometer reading for this vehicle"
+msgstr "Lectura del Odómetro no puede ser mayor que el Odómetro grabado siguiente lectura para este vehículo"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:106
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_odometer_ids
+#, python-format
+msgid "Odometers"
+msgstr "Odómetros"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.board_fleet_dash_view
+msgid "Operational Cost Analysis - Cost per KM"
+msgstr "Análisis de costo operativo - costo por KM"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.board_fleet_dash_view
+msgid "Operational Cost Analysis - Cost per Month"
+msgstr "Análisis de costo operativo - costo por mes"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:134
+#: model:ir.actions.act_window,name:fleet_x.open_module_tree_location
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_location_id_2254
+#: model:ir.ui.menu,name:fleet_x.menu_vehicle_location
+#: model:ir.ui.view,arch_db:fleet_x.view_location_tree
+#, python-format
+msgid "Operational Location"
+msgstr "Ubicación"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:123 selection:fleet.vehicle,ownership:0
+#, python-format
+msgid "Owned"
+msgstr "Propiedad"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:127
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_ownership
+#, python-format
+msgid "Ownership"
+msgstr "Propietario"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:77
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_department_parent_id
+#, python-format
+msgid "Parent Department"
+msgstr "Departamento Superior"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.fleet_vehicle_form
+msgid "Policies"
+msgstr "Políticas"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:124 selection:fleet.vehicle,ownership:0
+#, python-format
+msgid "Private (owned by employee)"
+msgstr "Privado (del empleado)"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.fleet_vehicle_form
+msgid "Purchase Info"
+msgstr "Información de compra"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:151
+#, python-format
+msgid "Purchase Price"
+msgstr "Parchase Price"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:149
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_ppartner
+#, python-format
+msgid "Purchased From"
+msgstr "Comprado en"
+
+#. module: fleet_x
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_cost_ref
+msgid "Ref"
+msgstr "Ref"
+
+#. module: fleet_x
+#: model:fleet.service.type,name:fleet_x.type_contract_registration
+msgid "Registration"
+msgstr "Registro"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:126 selection:fleet.vehicle,ownership:0
+#, python-format
+msgid "Rented"
+msgstr "Alquilado"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.view_res_contract_filter
+msgid "Search Contracts"
+msgstr "Búsqueda de contratos"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.fleet_vehicle_form
+msgid "Statistics"
+msgstr "Estadísticas"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.view_res_contract_filter
+msgid "Supplier"
+msgstr "Proveedor"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:159 sql_constraint:fleet.vehicle:0
+#, python-format
+msgid "The Chassis # of the vehicle must be unique !"
+msgstr "El chasis # del vehículo debe ser único!"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:158 sql_constraint:fleet.vehicle:0
+#, python-format
+msgid "The registration # of the vehicle must be unique !"
+msgstr "El registro # del vehículo debe ser único!"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.view_res_contract_filter
+msgid "To Close"
+msgstr "Para cerrar"
+
+#. module: fleet_x
+#: model:ir.actions.act_window,help:fleet_x.open_board_fleet_dash_action
+msgid ""
+"To add your first report into this dashboard, go to any\n"
+"\t\t\t\t\t\tmenu,\n"
+"\t\t\t\t\t\tswitch to list or graph view, and click\n"
+"\t\t\t\t\t\t<i>'Add to\n"
+"\t\t\t\t\t\t\tDashboard'\n"
+"\t\t\t\t\t\t</i>\n"
+"\t\t\t\t\t\tin the extended search options."
+msgstr "Para añadir su primer informe en este panel, ir a cualquier menú, cambiar a la lista o vista de gráfico y haga clic en <i>’Agregar al tablero’</i> en las opciones de búsqueda extendida."
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:145
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_costtotal
+#, python-format
+msgid "Total Cost"
+msgstr "Costo total"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:132
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_type_id_2249
+#: model:ir.ui.view,arch_db:fleet_x.fleet_vehicle_search
+#: model:ir.ui.view,arch_db:fleet_x.view_res_contract_filter
+#, python-format
+msgid "Type"
+msgstr "Tipo"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:151
+#, python-format
+msgid "Value of the bought vehicle"
+msgstr "Valor del vehículo comprado"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.fleet_vehicle_log_services_search
+#: model:ir.ui.view,arch_db:fleet_x.view_res_contract_filter
+msgid "Vehicle"
+msgstr "Vehículo"
+
+#. module: fleet_x
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_department_vehicle_count
+msgid "Vehicle Count"
+msgstr "Conteo de vehículos"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:256
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_cost_vehicle_location_id
+#, python-format
+msgid "Vehicle Location"
+msgstr "Ubicación del vehículo"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:254
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_cost_vehicle_type_id
+#: model:ir.ui.view,arch_db:fleet_x.view_vehicle_type_tree
+#, python-format
+msgid "Vehicle Type"
+msgstr "Tipo de vehículo"
+
+#. module: fleet_x
+#: model:ir.actions.act_window,name:fleet_x.open_module_tree_vehicle_type
+#: model:ir.ui.menu,name:fleet_x.menu_vehicle_type_tree
+msgid "Vehicle Types"
+msgstr "Tipos de vehículos"
+
+#. module: fleet_x
+#: model:ir.actions.act_window,help:fleet_x.open_module_tree_vehicle_type
+msgid "Vehicle types e.g. cars, trucks, etc"
+msgstr "Tipos de vehículo por ejemplo coches, camiones, etc."
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:75
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_department_vehicle_ids
+#: model:ir.ui.view,arch_db:fleet_x.fleet_vehicle_costkm_tree
+#: model:ir.ui.view,arch_db:fleet_x.fleet_vehicle_costmon_tree
+#: model:ir.ui.view,arch_db:fleet_x.view_department_form
+#, python-format
+msgid "Vehicles"
+msgstr "Vehículos"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.fleet_vehicle_log_services_search
+msgid "Vendor"
+msgstr "Proveedor"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:242
+#, python-format
+msgid "Vendors"
+msgstr "Proveedores"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.fleet_vehicle_form
+msgid "Warranty"
+msgstr "Garantía"
+
+#. module: fleet_x
+#: code:addons/fleet_x/models/fleet.py:121
+#: model:ir.model.fields,field_description:fleet_x.field_fleet_vehicle_manufacture_year
+#, python-format
+msgid "Year of Manufacture"
+msgstr "Año de fabricación:"
+
+#. module: fleet_x
+#: model:ir.actions.act_window,help:fleet_x.open_board_fleet_dash_action
+msgid ""
+"You can filter and group data before inserting into the\n"
+"\t\t\t\t\t\tdashboard using the search options."
+msgstr "Puede filtrar y datos antes de insertar en el tablero de instrumentos utilizando las opciones de búsqueda."
+
+#. module: fleet_x
+#: model:ir.model,name:fleet_x.model_fleet_config_settings
+msgid "fleet.config.settings"
+msgstr "fleet.config.settings"
+
+#. module: fleet_x
+#: model:ir.model,name:fleet_x.model_fleet_vehicle_department
+msgid "fleet.vehicle.department"
+msgstr "fleet.vehicle.department"
+
+#. module: fleet_x
+#: model:ir.model,name:fleet_x.model_fleet_vehicle_location
+msgid "fleet.vehicle.location"
+msgstr "fleet.vehicle.location"
+
+#. module: fleet_x
+#: model:ir.model,name:fleet_x.model_fleet_vehicle_type
+msgid "fleet.vehicle.type"
+msgstr "fleet.vehicle.type"
+
+#. module: fleet_x
+#: model:ir.ui.view,arch_db:fleet_x.view_fleet_config_settings
+msgid "or"
+msgstr "o"

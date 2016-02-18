@@ -10,7 +10,7 @@ from openerp.tools.translate import _
 class fleet_vehicle_cost(models.Model):
     _inherit = 'fleet.vehicle.cost'
 
-    move_id = fields.Many2one('account.move', _('Accounting Entry'), readonly=True,
+    invoice_id = fields.Many2one('account.invoice', _('Accounting Entry'), readonly=True,
                               copy=False, ondelete='restrict')
 
     @api.model

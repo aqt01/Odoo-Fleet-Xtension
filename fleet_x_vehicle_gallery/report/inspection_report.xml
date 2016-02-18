@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+
+
+    <report
+            id="car_inspection_report"
+            model="fleet.vehicle.gallery"
+            string="Hoja de Inspección"
+            report_type="qweb-pdf"
+            name="fleet_x_vehicle_gallery.inspection_report"
+            file="fleet_x_vehicle_gallery.inspection_report"
+    />
+
+
+    <template id="inspection_report">
+        <t t-call="report.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-set="company" t-value="res_company"></t>
+                <div class="header">
+                    <h3>
+                        <t t-esc="company.name"/>
+                    </h3>
+                    <H4>INSPECCION DE VEHICULO</H4>
+                    <style type="text/css">
+                        .tg {border-collapse:collapse;border-spacing:0;}
+                        .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px
+                        5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;}
+                        .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px
+                        5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;}
+                        .tg .tg-7uzy{vertical-align:top}
+                        .tg .tg-yw4l{vertical-align:top}
+                    </style>
+                    <table class="tg table table-condensed">
+                        <tr>
+                            <th class="tg-yw4l">Solicitante:</th>
+                            <th class="tg-yw4l"></th>
+                            <th class="tg-yw4l"></th>
+                            <th class="tg-yw4l"></th>
+                            <th class="tg-yw4l">Lugar de inspencción:</th>
+                            <th class="tg-yw4l"></th>
+                            <th class="tg-yw4l"></th>
+                            <th class="tg-yw4l"></th>
+                        </tr>
+                        <tr>
+                            <td class="tg-7uzy">Marca:</td>
+                            <td class="tg-7uzy"></td>
+                            <td class="tg-7uzy">Modelo</td>
+                            <td class="tg-7uzy"></td>
+                            <td class="tg-7uzy">Tipo:</td>
+                            <td class="tg-7uzy"></td>
+                            <td class="tg-7uzy">Combustible:</td>
+                            <td class="tg-7uzy"></td>
+                        </tr>
+                        <tr>
+                            <td class="tg-yw4l">Color:</td>
+                            <td class="tg-yw4l"></td>
+                            <td class="tg-yw4l">Placa:</td>
+                            <td class="tg-yw4l"></td>
+                            <td class="tg-yw4l">Año</td>
+                            <td class="tg-yw4l"></td>
+                            <td class="tg-yw4l">Transmisión</td>
+                            <td class="tg-yw4l"></td>
+                        </tr>
+                        <tr>
+                            <td class="tg-7uzy">KM:</td>
+                            <td class="tg-7uzy"></td>
+                            <td class="tg-7uzy">Chasis:</td>
+                            <td class="tg-7uzy"></td>
+                            <td class="tg-7uzy"></td>
+                            <td class="tg-7uzy"></td>
+                            <td class="tg-7uzy">Motor</td>
+                            <td class="tg-7uzy"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="page">page</div>
+                <div class="footer">footer</div>
+            </t>
+        </t>
+    </template>
+
+
+</openerp>

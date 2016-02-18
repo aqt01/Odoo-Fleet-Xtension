@@ -7,7 +7,7 @@ class fleet_vehicle_gallery(models.Model):
     _name = 'fleet.vehicle.gallery'
     _order = "name DESC,id"
     
-    name = fields.Date(_('Date'), requried=True, default=fields.Date.today())
+    name = fields.Datetime(_('Date'), requried=True, default=fields.Date.today())
     vehicle_id = fields.Many2one('fleet.vehicle', requried=True, ondelete='cascade')
     
     front_view = fields.Binary(_('Front View'), requried=True)
@@ -27,6 +27,3 @@ class fleet_vehicle(models.Model):
     @api.depends('gallery_ids')
     def _get_gallery_count(self):
         self.gallery_count = len(self.gallery_ids)
-        
-    
-    

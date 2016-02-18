@@ -18,7 +18,7 @@ class fleet_vehicle_issue(models.Model):
     name = fields.Char(_('Subject'), size=256, required=True)
     date = fields.Date(_('Date'), required=True, default=fields.Date.today(), index=True)
     vehicle_id = fields.Many2one('fleet.vehicle', _('Vehicle'), required=True, ondelete='cascade', index=True)
-    complainant = fields.Char('Complainant')    
+    complainant = fields.Many2one('res.partner', 'Complainant')
     category_id = fields.Many2one('fleet.vehicle.issue.category', _('Category'), required=True, index=True)
     response = fields.Text(_('Response'), required=False)
     memo = fields.Text(_('Description'))

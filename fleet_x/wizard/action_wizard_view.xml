@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="car_action_wizard_form" model="ir.ui.view">
+            <field name="name">car_action_wizard_form</field>
+            <field name="model">car.action.wizard</field>
+            <field name="arch" type="xml">
+                <form string="">
+                    <group>
+                        <field name="action_type" widget="radio"/>
+                        <field name="partner_id"/>
+                        <field name="journal_id" attrs="{'invisible': [('action_type','!=','receipt')], 'required': [('action_type','=','receipt')]}"/>
+                        <field name="amount" attrs="{'invisible': [('action_type','!=','receipt')], 'required': [('action_type','=','receipt')]}"/>
+
+                    </group>
+                    <footer>
+                        <button string="Aceptar" name="run_action" type="object" class="btn-primary"/>
+                        <button string="Cancel" class="btn-default" special="cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="car_action_wizard_action" model="ir.actions.act_window">
+            <field name="name">Seleccione la accion que desea ejecutar</field>
+            <field name="res_model">car.action.wizard</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="car_action_wizard_form"/>
+            <field name="target">new</field>
+        </record>
+
+
+    </data>
+</openerp>

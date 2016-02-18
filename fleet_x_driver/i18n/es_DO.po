@@ -1,0 +1,1201 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fleet_x_driver
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-11 15:33+0000\n"
+"PO-Revision-Date: 2016-02-11 11:46-0400\n"
+"Last-Translator: Eneldo Serrata <eneldoserrata@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_DO\n"
+"X-Generator: Poedit 1.8.7\n"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_property_account_payable_id
+msgid "Account Payable"
+msgstr "Cuenta a pagar"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_property_account_receivable_id
+msgid "Account Receivable"
+msgstr "Cuenta a cobrar"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_message_needaction
+msgid "Action Needed"
+msgstr "Necesaria acción"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_active
+msgid "Active"
+msgstr "Activo"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_form
+msgid "Address"
+msgstr "Dirección"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_type
+msgid "Address Type"
+msgstr "Tipo de dirección"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/res_config.py:39
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_config_settings_default_efficiency_alert_buffer
+#, python-format
+msgid "Alerts managers to fuel log efficiency that if this amount greater than or lesser than average"
+msgstr "Alertas a los administradores de registro eficacia de combustible eso si esta cantidad mayor que o menor que el promedio"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.driver_vehicle_assign_form
+msgid "Assign Vehicle"
+msgstr "Asignar vehículo"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:37
+#: selection:fleet.driver,state:0
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_res_driver_filter
+#, python-format
+msgid "Assigned"
+msgstr "Asignado"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:226
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_vehicle_vehicle_driver_id
+#, python-format
+msgid "Assigned Driver (Primary)"
+msgstr "Conductor asignado (primaria)"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:231
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_vehicle_alt_vehicle_driver_id
+#, python-format
+msgid "Assigned Driver (Secondary)"
+msgstr "Conductor asignado (secundaria)"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.driver_vehicle_assign_filter
+msgid "Assignment"
+msgstr "Asignación"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:43
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_previous_assignment_count
+#, python-format
+msgid "Assignment Count"
+msgstr "Conteo"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_vehicle_previous_assignment_count
+msgid "Assignment History"
+msgstr "Historia de asignación"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.driver_vehicle_assign_tree
+#: model:ir.ui.view,arch_db:fleet_x_driver.fleet_x_service_vehicle_form
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_form
+msgid "Assignments"
+msgstr "Asignaciónes"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/res_config.py:37
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_config_settings_default_coupon_creation
+#, python-format
+msgid "Automatic Coupon Creation"
+msgstr "Creación automática del cupón"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/res_config.py:37
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_config_settings_default_coupon_creation
+#, python-format
+msgid "Automatically create coupons based on fueling policy"
+msgstr "Crear automáticamente cupones basados en la política de carga"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_bank_account_count
+msgid "Bank"
+msgstr "Banco"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_bank_ids
+msgid "Banks"
+msgstr "Bancos"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_barcode
+msgid "Barcode"
+msgstr "Código de barras"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_birthdate
+msgid "Birthdate"
+msgstr "Fecha de nacimiento"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_channel_ids
+msgid "Channels"
+msgstr "Canales"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr "Marque esta casilla si el contacto es una compañía. En caso contrario, será una persona."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_customer
+msgid "Check this box if this contact is a customer."
+msgstr "Marque esta casilla si el contacto es un cliente."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_supplier
+msgid "Check this box if this contact is a vendor. If it's not checked, purchase people will not see it when encoding a purchase order."
+msgstr "Marque esta casilla si el contacto es un proveedor. Si no está marcada, el equipo de compras no lo verá cuando esté haciendo una orden de compra."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_employee
+msgid "Check this box if this contact is an Employee."
+msgstr "Marque si el contacto es un empleado"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_city
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_form
+msgid "City"
+msgstr "Ciudad"
+
+#. module: fleet_x_driver
+#: model:ir.actions.act_window,help:fleet_x_driver.action_driver
+msgid "Click to add a driver to the system."
+msgstr "Haga clic para agregar un conductor para el sistema."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_color
+msgid "Color Index"
+msgstr "Índice de colores"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_commercial_partner_id
+msgid "Commercial Entity"
+msgstr "Entidad comercial"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_ref_company_ids
+msgid "Companies that refers to partner"
+msgstr "Compañías que se refieren a la empresa"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_company_type
+msgid "Company Type"
+msgstr "Tipo de Compañía"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_contact_address
+msgid "Complete Address"
+msgstr "Dirección completa"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_form
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_child_ids
+msgid "Contacts"
+msgstr "Contactos"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_contract_ids
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_contracts_count
+msgid "Contracts"
+msgstr "Contratos"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_payment_method_count
+msgid "Count Payment Method"
+msgstr "Contar Metodo de Pago"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_country_id
+msgid "Country"
+msgstr "País"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_assignment_create_uid
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_assignment_create_date
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_credit_limit
+msgid "Credit Limit"
+msgstr "Crédito concedido"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_property_payment_term_id
+msgid "Customer Payment Term"
+msgstr "Plazo de pago de cliente"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_date
+msgid "Date"
+msgstr "Fecha"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:30
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_dob
+#, python-format
+msgid "Date of Birth"
+msgstr "Fecha de nacimiento"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_message_last_post
+msgid "Date of the last message posted on the record."
+msgstr "Fecha del último mensaje publicado en el registro."
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:27
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_date_license_exp
+#, python-format
+msgid "Date when license expires"
+msgstr "Fecha cuando caduca la licencia"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:22
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_date_hired
+#, python-format
+msgid "Date when the driver is hired"
+msgstr "Fecha cuando el conductor es contratado"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:25
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_date_terminated
+#, python-format
+msgid "Date when the driver is terminated from job"
+msgstr "Fecha cuando se termina el conductor de trabajo"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_assignment_display_name
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.driver_vehicle_assign_form
+msgid "Distance"
+msgstr "Distancia"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.fleet_vehicle_issue_search
+msgid "Diver"
+msgstr "Conductos"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_form
+msgid "Documents"
+msgstr "Documentos"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:35
+#: selection:fleet.driver,state:0
+#, python-format
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:236
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:284
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_assignment_driver_id
+#: model:ir.ui.view,arch_db:fleet_x_driver.driver_vehicle_assign_filter
+#, python-format
+msgid "Driver"
+msgstr "Conductor"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:312
+#, python-format
+msgid "Driver is already assigned to another vehicle"
+msgstr "Conductor ya está asignado a otro vehículo"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:236
+#, python-format
+msgid "Driver of the vehicle"
+msgstr "Conductor del vehículo"
+
+#. module: fleet_x_driver
+#: model:ir.actions.act_window,name:fleet_x_driver.act_drv_vehicle_assign
+msgid "Driver-Vehicle Assignment"
+msgstr "Asignación de conductor-vehículo"
+
+#. module: fleet_x_driver
+#: model:ir.actions.act_window,name:fleet_x_driver.action_driver
+#: model:ir.ui.menu,name:fleet_x_driver.fleet_drivers
+#: model:ir.ui.menu,name:fleet_x_driver.fleet_drivers_menu
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_form
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_tree
+msgid "Drivers"
+msgstr "Choferes"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.driver_vehicle_assign_form
+msgid "Duration"
+msgstr "Duración"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_email
+msgid "Email"
+msgstr "Correo electrónico"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_notify_email
+msgid "Email Messages and Notifications"
+msgstr "Mensajes de correo electrónico y notificaciones"
+
+#. module: fleet_x_driver
+#: model:ir.model,name:fleet_x_driver.model_fleet_driver
+msgid "Email Thread"
+msgstr "Hilo de mensajes"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:286
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_assignment_date_end
+#, python-format
+msgid "End Date"
+msgstr "Fecha final"
+
+#. module: fleet_x_driver
+#: model:ir.actions.act_window,name:fleet_x_driver.action_driver_exp
+#: model:ir.ui.menu,name:fleet_x_driver.fleet_drivers_menu_exp
+msgid "Expired License"
+msgstr "Licencia vencida"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_fax
+msgid "Fax"
+msgstr "Fax"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:31
+#: selection:fleet.driver,gender:0
+#, python-format
+msgid "Female"
+msgstr "Mujer"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_property_account_position_id
+msgid "Fiscal Position"
+msgstr "Posición fiscal"
+
+#. module: fleet_x_driver
+#: model:ir.actions.act_window,help:fleet_x_driver.action_driver
+msgid "Fleet X allows you to add drivers into the system and manage their activities"
+msgstr "X de la Vehículo le permite agregar choferes en el sistema y administrar sus actividades"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canales)"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Empresas)"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/res_config.py:39
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_config_settings_default_efficiency_alert_buffer
+#, python-format
+msgid "Fuel Efficiency Alert Buffer"
+msgstr "Eficiencia de combustible alerta Buffer"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/res_config.py:38
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_config_settings_default_price_per_lt
+#, python-format
+msgid "Fuel Price per Liter"
+msgstr "Precio por galón de combustible"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:31
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_gender
+#, python-format
+msgid "Gender"
+msgstr "Sexo"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_res_driver_filter
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.driver_vehicle_assign_filter
+msgid "Group By..."
+msgstr "Agrupar por..."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_has_unreconciled_entries
+msgid "Has unreconciled entries"
+msgstr "Contiene entradas irreconciliadas"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:22
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_date_hired
+#, python-format
+msgid "Hire Date"
+msgstr "Fecha Contratación"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_assignment_id
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_id
+msgid "ID"
+msgstr "ID"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_im_status
+msgid "IM Status"
+msgstr "Estado del chat"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:21
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_identification_no
+#, python-format
+msgid "Identification #"
+msgstr "Identification #"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_message_unread
+msgid "If checked new messages require your attention."
+msgstr "Si está marcado, hay nuevos mensajes que requieren su atención"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado, hay nuevos mensajes que requieren su atención."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_opt_out
+msgid "If opt-out is checked, this contact has refused to receive emails for mass mailing and marketing campaign. Filter 'Available for Mass Mailing' allows users to filter the partners when performing mass mailing."
+msgstr "Si 'No acepta mensajes' está marcado, este contacto ha rehusado recibir correos electrónicos de envíos masivos y campañas de marketing. El filtro 'Disponible para envíos masivos' permite a los usuarios filtrar a las empresas cuando se realicen envíos masivos."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_lang
+msgid "If the selected language is loaded in the system, all documents related to this contact will be printed in this language. If not, it will be English."
+msgstr "Si el idioma seleccionado está cargado en el sistema, todos los documentos relacionados con el contacto se imprimirán en este idioma. Si no, se imprimirán en inglés."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_image
+msgid "Image"
+msgstr "Imagen"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_form
+msgid "Indentification #..."
+msgstr "Indentification #..."
+
+#. module: fleet_x_driver
+#: model:ir.model,name:fleet_x_driver.model_fleet_vehicle
+msgid "Information on a vehicle"
+msgstr "Información en un vehículo"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_form
+msgid "Internal Notes"
+msgstr "Notas internas"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_ref
+msgid "Internal Reference"
+msgstr "Referencia interna"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_invoice_ids
+msgid "Invoices"
+msgstr "Facturas"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_message_is_follower
+msgid "Is Follower"
+msgstr "Es un seguidor"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_is_company
+msgid "Is a Company"
+msgstr "Is a Company"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_customer
+msgid "Is a Customer"
+msgstr "Es Cliente"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_supplier
+msgid "Is a Vendor"
+msgstr "Es un Proveedor"
+
+#. module: fleet_x_driver
+#: model:ir.model,name:fleet_x_driver.model_fleet_vehicle_issue
+msgid "Issue"
+msgstr "Incidente"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:51
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_issue_count
+#, python-format
+msgid "Issue Count"
+msgstr "Numero de Incidentes"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:49
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_issue_ids
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_form
+#, python-format
+msgid "Issues"
+msgstr "Incidentes"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_function
+msgid "Job Position"
+msgstr "Posición de Trabajo"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_issued_total
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_journal_item_count
+msgid "Journal Items"
+msgstr "Apuntes contables"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_lang
+msgid "Language"
+msgstr "Idioma"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_message_last_post
+msgid "Last Message Date"
+msgstr "Fecha del último mensaje"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver___last_update
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_assignment___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_assignment_write_uid
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_assignment_write_date
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_last_time_entries_checked
+msgid "Last time the invoices & payments matching was performed for this partner. It is set either if there's not at least an unreconciled debit and an unreconciled credit or if you click the \"Done\" button."
+msgstr "Última vez que se conciliaros facturas y pagos de este asociado. Se configura incluso si no hay ningún débito o crédito por conciliar, o si pulsa el botón \"Hecho\"."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_last_time_entries_checked
+msgid "Latest Invoices & Payments Matching Date"
+msgstr "Fecha de la última conciliación de facturas y pagos"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_res_driver_filter
+msgid "License Exp."
+msgstr "Licencia Exp."
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:38
+#: selection:fleet.driver,state:0
+#, python-format
+msgid "License Expired"
+msgstr "La licencia ha caducado."
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:48
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_license_no
+#, python-format
+msgid "License Number"
+msgstr "Número de licencia"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:27
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_date_license_exp
+#, python-format
+msgid "License exp. Date"
+msgstr "Licencia fecha de exp."
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_res_driver_filter
+msgid "Location"
+msgstr "Ubicación"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:31
+#: selection:fleet.driver,gender:0
+#, python-format
+msgid "Male"
+msgstr "Hombre"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_image_medium
+msgid "Medium-sized image"
+msgstr "Imagen mediana"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_image_medium
+msgid "Medium-sized image of this contact. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
+msgstr "Imagen mediana de este contacto. Se redimensiona automáticamente a 128x128 px, con el ratio de aspecto preservado. Se usa este campo en las vistas los formularios y en algunas vistas de kanban."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_mobile
+msgid "Mobile"
+msgstr "Mobile"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_name
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_form
+msgid "Name"
+msgstr "Nombre"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:287
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_assignment_notes
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_comment
+#, python-format
+msgid "Notes"
+msgstr "Notas"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:46
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_attachment_count
+#, python-format
+msgid "Number of Attachments"
+msgstr "Número de adjuntos"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensajes que requieren una acción"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensajes no leidos"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:289
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_assignment_odometer_end
+#, python-format
+msgid "Odometer at Finish"
+msgstr "Final del Odometro"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:288
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_assignment_odometer_start
+#, python-format
+msgid "Odometer at Start"
+msgstr "Inicio del Odometro"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:53
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_location_id
+#, python-format
+msgid "Operational Location"
+msgstr "Operational Location"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_opt_out
+msgid "Opt-Out"
+msgstr "No acepta recibir mensajes"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_parent_name
+msgid "Parent name"
+msgstr "Parent name"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_partner_id
+msgid "Partner id"
+msgstr "Partner id"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_debit_limit
+msgid "Payable Limit"
+msgstr "Límite a pagar"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_payment_method_ids
+msgid "Payment Methods"
+msgstr "Formas de pago"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_phone
+msgid "Phone"
+msgstr "Teléfono"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_notify_email
+msgid ""
+"Policy to receive emails for new messages pushed to your personal Inbox:\n"
+"- Never: no emails are sent\n"
+"- All Messages: for every notification you receive in your Inbox"
+msgstr ""
+"Política para recibir correos electrónicos para los nuevos mensajes insertados en su bandeja de entrada personal\n"
+"- Nunca: No se enviará ningún correo\n"
+"- Todos los mensajes: Se enviará un correo para cada notificación que reciba en su bandeja de entrada"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:240
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_vehicle_previous_assignment_ids
+#, python-format
+msgid "Previous Drivers"
+msgstr "Choferes anteriores"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:42
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_previous_assignment_ids
+#, python-format
+msgid "Previous Vehicles"
+msgstr "Vehículos anteriores"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:290
+#: selection:fleet.driver.assignment,type:0
+#, python-format
+msgid "Primary"
+msgstr "Primario"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:227
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_vehicle_vehicle_driver_id
+#, python-format
+msgid "Primary driver of the vehicle"
+msgstr "Conductor principal del vehículo"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_form
+msgid "Put an internal note..."
+msgstr "Poner una nota interna…"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_form
+msgid "Reactivate"
+msgstr "Reactivar"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_parent_id
+msgid "Related Company"
+msgstr "Compañías Relacionadas"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:331
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_vehicle_issue_driver_id
+#, python-format
+msgid "Responsible"
+msgstr "Responsable"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_property_product_pricelist
+msgid "Sale Pricelist"
+msgstr "Tarifa de venta"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_team_id
+msgid "Sales Team"
+msgstr "Equipo de ventas"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_user_id
+msgid "Salesperson"
+msgstr "Vendedor"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_res_driver_filter
+msgid "Search Drivers"
+msgstr "Buscar conductor"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:290
+#: selection:fleet.driver.assignment,type:0
+#, python-format
+msgid "Secondary"
+msgstr "Secundario"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:232
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_vehicle_alt_vehicle_driver_id
+#, python-format
+msgid "Secondary driver of the vehicle"
+msgstr "Conductor secundario del vehículo"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_use_parent_address
+msgid "Select this if you want to set company's address information  for this contact"
+msgstr "Seleccione esto si quiere establecer la información de la dirección de la compañía para este contacto"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_signup_expiration
+msgid "Signup Expiration"
+msgstr "Expiración del ingreso"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_signup_token
+msgid "Signup Token"
+msgstr "Palabra de ingreso"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_signup_type
+msgid "Signup Token Type"
+msgstr "Tipo de la palabra de ingreso"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_signup_valid
+msgid "Signup Token is Valid"
+msgstr "La palabra de ingreso es válida"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_signup_url
+msgid "Signup URL"
+msgstr "URL de ingreso"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_image_small
+msgid "Small-sized image"
+msgstr "Imagen pequeña"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_image_small
+msgid "Small-sized image of this contact. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+msgstr "Imagen de tamaño pequeño de este contacto. Se redimensiona automáticamente a 64x64 px, con el ratio de aspecto preservado. Use este campo donde se requiera una imagen pequeña."
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:285
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_assignment_date_start
+#, python-format
+msgid "Start Date"
+msgstr "Fecha inicial"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_state
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_state_id
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_res_driver_filter
+msgid "State"
+msgstr "Estado"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_street
+msgid "Street"
+msgstr "Calle"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_form
+msgid "Street..."
+msgstr "Calle…"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_street2
+msgid "Street2"
+msgstr "Street2"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_vat
+msgid "TIN"
+msgstr "RCN/Cédual"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_res_driver_filter
+msgid "Tag"
+msgstr "Etiqueta"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_category_id
+msgid "Tags"
+msgstr "Etiquetas"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_form
+msgid "Tags..."
+msgstr "Etiquetas…"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_vat
+msgid "Tax Identification Number. Fill it if the company is subjected to taxes. Used by the some of the legal statements."
+msgstr "Número de identificación fiscal. Llenar si la empresa está sujeta a impuestos. Utilizado por algunas de las declaraciones legales."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_company_type
+msgid "Technical field, used only to display a boolean using a radio button. As for Odoo v9 RadioButton cannot be used on boolean fields, this one serves as interface. Due to the old API limitations with interface function field, we implement it by hand instead of a true function field. When migrating to the new API the code should be simplified."
+msgstr "Campo técnico, usado sólo para mostrar un valor boolean utilizando un botón de radio. En cuanto a la v9 de Odoo que RadioButton no puede usarse en campos Booleanos, éste sirve como interfaz. Debido a las limitaciones de API antiguo con campo de función de interfaz, implementamos lo con la mano en vez de un campo de la verdadera función. Al migrar a la nueva API debe simplificar el código."
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_form
+msgid "Terminate"
+msgstr "Terminar"
+
+#. module: fleet_x_driver
+#: selection:fleet.driver,state:0
+msgid "Terminated"
+msgstr "terminado"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:24
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_date_terminated
+#, python-format
+msgid "Terminated Date"
+msgstr "Fecha de terminación"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_property_account_position_id
+msgid "The fiscal position will determine taxes and accounts used for the partner."
+msgstr "La posición fiscal determinará los impuestos y cuentas utilizados por el asociado."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_user_id
+msgid "The internal user that is in charge of communicating with this contact if any."
+msgstr "El usuario interno encargado de comunicarse con este contacto si lo hubiese."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_has_unreconciled_entries
+msgid "The partner has at least one unreconciled debit and credit since last time the invoices & payments matching was performed."
+msgstr "El asociado tiene al menos un débito o crédito no conciliado desde la última vez que se realizó la conciliación de facturas y pagos."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_tz
+msgid "The partner's timezone, used to output proper date and time values inside printed reports. It is important to set a value for this field. You should use the same timezone that is otherwise used to pick and render date and time values: your computer's timezone."
+msgstr "Zona horaria de la empresa, usada para mostrar la fecha y hora adecuadas en los informes impresos. Es importante establecer un valor para este campo. Debería usar la misma zona horaria que se coge en caso contrario para mostrar los valores de fecha y hora: la zona horaria de su ordenador."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_property_account_payable_id
+msgid "This account will be used instead of the default one as the payable account for the current partner"
+msgstr "Esta cuenta se utilizará en lugar de la cuenta por defecto como la cuenta pendiente de pago del asociado actual."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_property_account_receivable_id
+msgid "This account will be used instead of the default one as the receivable account for the current partner"
+msgstr "Esta cuenta se utilizará en lugar de la cuenta por defecto como la cuenta pendiente de cobro del asociado actual."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_image
+msgid "This field holds the image used as avatar for this contact, limited to 1024x1024px"
+msgstr "Este campo sostiene la imagen usada como avatar para este contacto, limitado a 1024x1024px"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_property_supplier_payment_term_id
+msgid "This payment term will be used instead of the default one for purchase orders and vendor bills"
+msgstr "Se utilizará esta condición de pago, en lugar de la predeterminada, para los pedidos de compra y las facturas de proveedor."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_property_payment_term_id
+msgid "This payment term will be used instead of the default one for sale orders and customer invoices"
+msgstr "Se utilizará esta condición de pago, en lugar de la predeterminada, para los pedidos de venta y facturas de clientes"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_property_product_pricelist
+msgid "This pricelist will be used, instead of the default one, for sales to the current partner"
+msgstr "Esta tarifa se utilizará, en lugar de la por defecto, para las ventas de la empresa actual."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_tz
+msgid "Timezone"
+msgstr "Zona horaria"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_tz_offset
+msgid "Timezone offset"
+msgstr "Ajuste de Zona Horaria"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_title
+msgid "Title"
+msgstr "Título"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_total_invoiced
+msgid "Total Invoiced"
+msgstr "Total facturado"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_debit
+msgid "Total Payable"
+msgstr "Total a pagar"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_credit
+msgid "Total Receivable"
+msgstr "Total a cobrar"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_credit
+msgid "Total amount this customer owes you."
+msgstr "Importe total que le debe el cliente."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_debit
+msgid "Total amount you have to pay to this vendor."
+msgstr "Importe total a pagar a este proveedor."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_assignment_type
+#: model:ir.ui.view,arch_db:fleet_x_driver.driver_vehicle_assign_filter
+#: model:ir.ui.view,arch_db:fleet_x_driver.fleet_x_vehicle_search
+msgid "Type"
+msgstr "Tipo"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_form
+msgid "Unassign"
+msgstr "Sin asignar"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:36
+#: selection:fleet.driver,state:0
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_res_driver_filter
+#, python-format
+msgid "Unassigned"
+msgstr "No asignado"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_message_unread
+msgid "Unread Messages"
+msgstr "Mensajes sin leer"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes no leidos"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_use_parent_address
+msgid "Use Company Address"
+msgstr "Utilizar la dirección de la empresa"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_type
+msgid "Used to select automatically the right address according to the context in sales and purchases documents."
+msgstr "Used to select automatically the right address according to the context in sales and purchases documents."
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_user_ids
+msgid "Users"
+msgstr "Usuarios"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_currency_id
+msgid "Utility field to express amount currency"
+msgstr "Campo útil para expresar importe en divisa."
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:32
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:283
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_assignment_vehicle_id
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_vehicle_id
+#: model:ir.ui.view,arch_db:fleet_x_driver.driver_vehicle_assign_filter
+#, python-format
+msgid "Vehicle"
+msgstr "Vehículo"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:286
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_assignment_date_end
+#, python-format
+msgid "Vehicle assignment end-date"
+msgstr "Fecha de finalización de asignación vehículo"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:285
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_assignment_date_start
+#, python-format
+msgid "Vehicle assignment start-date"
+msgstr "Comienzo de la asignación del vehículo"
+
+#. module: fleet_x_driver
+#: code:addons/fleet_x_driver/models/fleet_drivers.py:325
+#, python-format
+msgid "Vehicle is already assigned to another driver of this same type"
+msgstr "Vehículo ya está asignado a otro conductor de este mismo tipo"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_property_supplier_payment_term_id
+msgid "Vendor Payment Term"
+msgstr "Condiciones de pago a proveedor"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_website
+msgid "Website"
+msgstr "Sitio web"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,help:fleet_x_driver.field_fleet_driver_website
+msgid "Website of Partner or Company"
+msgstr "Sitio Web del socio de la Empresa"
+
+#. module: fleet_x_driver
+#: model:ir.model.fields,field_description:fleet_x_driver.field_fleet_driver_zip
+msgid "Zip"
+msgstr "C.P."
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_form
+msgid "e.g. +32.81.81.37.00"
+msgstr "e.g. +32.81.81.37.00"
+
+#. module: fleet_x_driver
+#: model:ir.ui.view,arch_db:fleet_x_driver.view_driver_form
+msgid "e.g. Truck Driver"
+msgstr "e.g. Truck Driver"
+
+#. module: fleet_x_driver
+#: model:ir.model,name:fleet_x_driver.model_fleet_config_settings
+msgid "fleet.config.settings"
+msgstr "fleet.config.settings"
+
+#. module: fleet_x_driver
+#: model:ir.model,name:fleet_x_driver.model_fleet_driver_assignment
+msgid "fleet.driver.assignment"
+msgstr "fleet.driver.assignment"

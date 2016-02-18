@@ -42,24 +42,55 @@
             <field name="inherit_id" ref="fleet.fleet_vehicle_form"/>
             <field name="arch" type="xml">
 
-                <field name="state_id" position="before">
-                    <button name="create_quotation" type="object" class="oe_highlight" string="Cotizar"/>
-                    <button name="create_payment" type="object" class="oe_highlight" string="Registrar Pago"/>
+                <field name="vin_sn" position="replace"/>
+                <xpath expr="//div[@class='oe_title']" position="replace">
+                    <div class="oe_title">
+                        <label for="model_id" class="oe_edit_only"/>
+                        <h1>
+                            <field name="model_id" on_change="on_change_model(model_id)" placeholder="e.g. Model S"/>
+                        </h1>
+                        <label for="vin_sn" class="oe_edit_only"/>
+                        <h2>
+                            <field name="vin_sn" class="oe_inline" placeholder="Ej: JT164JA80XXXXXXXX" required="1"/>
+                        </h2>
+                        <label for="tag_ids" class="oe_edit_only"/>
+                        <field name="tag_ids" widget="many2many_tags"/>
+                    </div>
+                </xpath>
 
+                <xpath expr="//group//group[1]" position="replace">
+                    <group>
+                        <field name="driver_id"/>
+                        <field name="location"/>
+                        <field name="license_plate" required="0"/>
+                        <field name="company_id" groups="base.group_multi_company"/>
+                    </group>
+                </xpath>
+
+                <field name="state_id" position="before">
+                    <button name="%(fleet_x.car_action_wizard_action)d" type="action" class="oe_highlight"
+                            string="Cotizar / Registrar Pago"/>
                 </field>
 
                 <field name="color" position="after">
                     <field name="fueltankcap"/>
                     <field name="manufacture_year"/>
-                    <field name="ownership"/>
+                    <field name="register_year"/>
+                    <field name="ownership" invisible="0"/>
                 </field>
                 <field name="acquisition_date" position="before">
                     <field name="odometer_date"/>
+                    <field name="sale_price"/>
+                </field>
+
+                <field name="horsepower_tax" position="replace">
+                    <field name="horsepower_tax" string="CC"/>
                 </field>
 
                 <field name="driver_id" position="after">
                     <field name="department_id"/>
                 </field>
+
 
                 <field name="location" position="replace">
                     <field name="location" invisible="1"/>
@@ -112,6 +143,12 @@
                         </page>
                         <page string="Internal Note">
                             <field name="note"/>
+                        </page>
+                        <page string="Cotizaciones">
+                            <field name="sale_ids"/>
+                        </page>
+                        <page string="Pagos">
+                            <field name="payment_ids"/>
                         </page>
                         <page string="Policies" name="Policies">
                         </page>

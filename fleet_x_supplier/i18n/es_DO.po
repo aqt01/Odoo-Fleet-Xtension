@@ -1,0 +1,307 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fleet_x_supplier
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-11 16:18+0000\n"
+"PO-Revision-Date: 2016-02-11 12:22-0400\n"
+"Last-Translator: Eneldo Serrata <eneldoserrata@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_DO\n"
+"X-Generator: Poedit 1.8.7\n"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.report_fleet_supplier_graph
+msgid "Amount"
+msgstr "Importe"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.view_wizard_report_fleet_supplier
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: fleet_x_supplier
+#: code:addons/fleet_x_supplier/reports/fleet_supplier_report.py:24
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_report_fleet_supplier_cost_type
+#, python-format
+msgid "Category of the cost"
+msgstr "Categoría del coste"
+
+#. module: fleet_x_supplier
+#: code:addons/fleet_x_supplier/wizard/fleet_supplier_report.py:12
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_wizard_report_fleet_supplier_choose_date
+#, python-format
+msgid "Choose a Particular Period"
+msgstr "Escoger una fecha particular"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.view_wizard_report_fleet_supplier
+msgid "Choose the date for which you want to get a report for."
+msgstr "Elegir la fecha para la cual desea obtener un informe para."
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.view_wizard_report_fleet_supplier
+msgid "Choose your period"
+msgstr "Choose your period"
+
+#. module: fleet_x_supplier
+#: code:addons/fleet_x_supplier/reports/fleet_supplier_report.py:23
+#: selection:report.fleet.supplier,cost_type:0
+#, python-format
+msgid "Contract"
+msgstr "Contrato"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.report_fleet_supplier_filter
+msgid "Cost Category"
+msgstr "Categoría de costo"
+
+#. module: fleet_x_supplier
+#: code:addons/fleet_x_supplier/wizard/fleet_supplier_report.py:34
+#, python-format
+msgid "Cost Logs"
+msgstr "Registros de costos"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.report_fleet_supplier_filter
+msgid "Cost Type"
+msgstr "Tipo de coste"
+
+#. module: fleet_x_supplier
+#: code:addons/fleet_x_supplier/reports/fleet_supplier_report.py:20
+#: model:ir.model.fields,help:fleet_x_supplier.field_report_fleet_supplier_cost_subtype_id
+#, python-format
+msgid "Cost type purchased with this cost"
+msgstr "Tipo de coste comprado con este coste"
+
+#. module: fleet_x_supplier
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_report_fleet_supplier_nbr
+#: model:ir.ui.view,arch_db:fleet_x_supplier.report_fleet_supplier_graph
+msgid "Count"
+msgstr "Cantidad"
+
+#. module: fleet_x_supplier
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_wizard_report_fleet_supplier_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: fleet_x_supplier
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_wizard_report_fleet_supplier_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.report_fleet_supplier_filter
+msgid "Date"
+msgstr "Fecha"
+
+#. module: fleet_x_supplier
+#: code:addons/fleet_x_supplier/wizard/fleet_supplier_report.py:13
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_wizard_report_fleet_supplier_date_from
+#, python-format
+msgid "Date From"
+msgstr "Fecha desde"
+
+#. module: fleet_x_supplier
+#: code:addons/fleet_x_supplier/reports/fleet_supplier_report.py:16
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_report_fleet_supplier_date
+#, python-format
+msgid "Date Logged"
+msgstr "Fecha registrada"
+
+#. module: fleet_x_supplier
+#: code:addons/fleet_x_supplier/wizard/fleet_supplier_report.py:14
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_wizard_report_fleet_supplier_date_to
+#, python-format
+msgid "Date To"
+msgstr "Fecha hasta"
+
+#. module: fleet_x_supplier
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_report_fleet_supplier_display_name
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_wizard_report_fleet_supplier_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: fleet_x_supplier
+#: model:ir.model,name:fleet_x_supplier.model_report_fleet_supplier
+msgid "Fleet Supplier"
+msgstr "Proveedor de Vehículo"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.report_fleet_supplier_graph
+msgid "Fleet Suppliers"
+msgstr "Proveedores de Vehículo"
+
+#. module: fleet_x_supplier
+#: code:addons/fleet_x_supplier/reports/fleet_supplier_report.py:24
+#: model:ir.model.fields,help:fleet_x_supplier.field_report_fleet_supplier_cost_type
+#, python-format
+msgid "For internal purpose only"
+msgstr "Sólo para uso interno"
+
+#. module: fleet_x_supplier
+#: code:addons/fleet_x_supplier/reports/fleet_supplier_report.py:23
+#: selection:report.fleet.supplier,cost_type:0
+#, python-format
+msgid "Fuel"
+msgstr "Combustible"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.report_fleet_supplier_filter
+msgid "Group By..."
+msgstr "Agrupar por..."
+
+#. module: fleet_x_supplier
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_report_fleet_supplier_id
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_wizard_report_fleet_supplier_id
+msgid "ID"
+msgstr "ID"
+
+#. module: fleet_x_supplier
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_report_fleet_supplier___last_update
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_wizard_report_fleet_supplier___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: fleet_x_supplier
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_wizard_report_fleet_supplier_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: fleet_x_supplier
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_wizard_report_fleet_supplier_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: fleet_x_supplier
+#: code:addons/fleet_x_supplier/reports/fleet_supplier_report.py:23
+#: selection:report.fleet.supplier,cost_type:0
+#, python-format
+msgid "Other"
+msgstr "Otros"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.view_wizard_report_fleet_supplier
+msgid "Period"
+msgstr "Período"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.report_fleet_supplier_tree
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.view_wizard_report_fleet_supplier
+msgid "Retrieve Cost Logs"
+msgstr "Recuperar registros de costo"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.view_wizard_report_fleet_supplier
+msgid "Retrieve all cost log for a supplier"
+msgstr "Recuperar todos los registros de costo para un proveedor"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.report_fleet_supplier_filter
+msgid "Search Suppliers"
+msgstr "Búsqueda por Proveedores"
+
+#. module: fleet_x_supplier
+#: code:addons/fleet_x_supplier/reports/fleet_supplier_report.py:23
+#: selection:report.fleet.supplier,cost_type:0
+#, python-format
+msgid "Services"
+msgstr "Servicios"
+
+#. module: fleet_x_supplier
+#: code:addons/fleet_x_supplier/reports/fleet_supplier_report.py:15
+#: code:addons/fleet_x_supplier/wizard/fleet_supplier_report.py:11
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_report_fleet_supplier_vendor_id
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_wizard_report_fleet_supplier_vendor_id
+#, python-format
+msgid "Supplier"
+msgstr "Proveedor"
+
+#. module: fleet_x_supplier
+#: model:ir.actions.act_window,name:fleet_x_supplier.action_report_fleet_supplier
+#: model:ir.ui.menu,name:fleet_x_supplier.menu_report_fleet_supplier
+msgid "Supplier Analysis"
+msgstr "Análisis de proveedores"
+
+#. module: fleet_x_supplier
+#: model:ir.actions.act_window,name:fleet_x_supplier.action_wizard_report_fleet_supplier
+#: model:ir.ui.menu,name:fleet_x_supplier.menu_action_wizard_report_fleet_supplier
+msgid "Supplier Payable Analysis"
+msgstr "Análisis por pagar proveedor"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.report_fleet_supplier_tree
+msgid "Supplier Report"
+msgstr "Supplier Report"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.report_fleet_supplier_filter
+msgid "This Year"
+msgstr "Este año"
+
+#. module: fleet_x_supplier
+#: code:addons/fleet_x_supplier/reports/fleet_supplier_report.py:21
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_report_fleet_supplier_amount
+#, python-format
+msgid "Total Amount"
+msgstr "Valor total:"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.report_fleet_supplier_tree
+msgid "Total Value"
+msgstr "Valor total"
+
+#. module: fleet_x_supplier
+#: code:addons/fleet_x_supplier/reports/fleet_supplier_report.py:19
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_report_fleet_supplier_cost_subtype_id
+#, python-format
+msgid "Type"
+msgstr "Tipo"
+
+#. module: fleet_x_supplier
+#: code:addons/fleet_x_supplier/reports/fleet_supplier_report.py:17
+#: model:ir.model.fields,field_description:fleet_x_supplier.field_report_fleet_supplier_vehicle_id
+#, python-format
+msgid "Vehicle"
+msgstr "Vehículo"
+
+#. module: fleet_x_supplier
+#: code:addons/fleet_x_supplier/reports/fleet_supplier_report.py:18
+#: model:ir.model.fields,help:fleet_x_supplier.field_report_fleet_supplier_vehicle_id
+#, python-format
+msgid "Vehicle concerned by this log"
+msgstr "Vehículo afectado por este registro"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.fleet_vehicle_log_fuel_search
+#: model:ir.ui.view,arch_db:fleet_x_supplier.report_fleet_supplier_filter
+msgid "Vendor"
+msgstr "Proveedor"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.menu,name:fleet_x_supplier.fleet_supplier
+msgid "Vendors"
+msgstr "Proveedores"
+
+#. module: fleet_x_supplier
+#: code:addons/fleet_x_supplier/wizard/fleet_supplier_report.py:9
+#: model:ir.model,name:fleet_x_supplier.model_wizard_report_fleet_supplier
+#, python-format
+msgid "Wizard that opens supplier cost logs"
+msgstr "Asistente que se abre registros de costo del proveedor"
+
+#. module: fleet_x_supplier
+#: model:ir.ui.view,arch_db:fleet_x_supplier.view_wizard_report_fleet_supplier
+msgid "or"
+msgstr "o"

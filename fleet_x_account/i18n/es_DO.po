@@ -1,0 +1,115 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fleet_x_account
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-11 15:29+0000\n"
+"PO-Revision-Date: 2016-02-11 11:33-0400\n"
+"Last-Translator: Eneldo Serrata <eneldoserrata@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_DO\n"
+"X-Generator: Poedit 1.8.7\n"
+
+#. module: fleet_x_account
+#: code:addons/fleet_x_account/models/fleet_vehicle_cost.py:50
+#, python-format
+msgid "%s cost of %s"
+msgstr "%s costo de %s"
+
+#. module: fleet_x_account
+#: model:ir.ui.view,arch_db:fleet_x_account.fleet_vehicle_service_types_form
+msgid "Accounting"
+msgstr "Contabilidad"
+
+#. module: fleet_x_account
+#: model:ir.ui.view,arch_db:fleet_x_account.view_fleet_config_settings_inherit
+msgid "Accounting Defaults"
+msgstr "Contabilidad"
+
+#. module: fleet_x_account
+#: code:addons/fleet_x_account/models/fleet_vehicle_cost.py:13
+#: model:ir.model.fields,field_description:fleet_x_account.field_fleet_vehicle_cost_move_id
+#, python-format
+msgid "Accounting Entry"
+msgstr "Asiento contable"
+
+#. module: fleet_x_account
+#: code:addons/fleet_x_account/models/fleet_vehicle_cost.py:104
+#: code:addons/fleet_x_account/models/fleet_vehicle_cost.py:122
+#, python-format
+msgid "Adjustment Entry"
+msgstr "Asiento de ajuste"
+
+#. module: fleet_x_account
+#: code:addons/fleet_x_account/models/fleet_vehicle_cost.py:160
+#: code:addons/fleet_x_account/models/res_config.py:28
+#: model:ir.model.fields,field_description:fleet_x_account.field_fleet_config_settings_default_analytic_account_id
+#: model:ir.model.fields,field_description:fleet_x_account.field_fleet_service_type_analytic_account_id
+#: model:ir.ui.view,arch_db:fleet_x_account.view_fleet_config_settings_inherit
+#, python-format
+msgid "Analytic Account"
+msgstr "Cuenta analítica"
+
+#. module: fleet_x_account
+#: model:ir.model,name:fleet_x_account.model_fleet_vehicle_cost
+msgid "Cost related to a vehicle"
+msgstr "Coste relativo al vehículo"
+
+#. module: fleet_x_account
+#: code:addons/fleet_x_account/models/fleet_vehicle_cost.py:164
+#: code:addons/fleet_x_account/models/res_config.py:30
+#: model:ir.model.fields,field_description:fleet_x_account.field_fleet_config_settings_default_account_credit
+#: model:ir.model.fields,field_description:fleet_x_account.field_fleet_service_type_account_credit
+#: model:ir.ui.view,arch_db:fleet_x_account.view_fleet_config_settings_inherit
+#, python-format
+msgid "Credit Account"
+msgstr "Cuenta de credito"
+
+#. module: fleet_x_account
+#: code:addons/fleet_x_account/models/fleet_vehicle_cost.py:162
+#: code:addons/fleet_x_account/models/res_config.py:29
+#: model:ir.model.fields,field_description:fleet_x_account.field_fleet_config_settings_default_account_debit
+#: model:ir.model.fields,field_description:fleet_x_account.field_fleet_service_type_account_debit
+#: model:ir.ui.view,arch_db:fleet_x_account.view_fleet_config_settings_inherit
+#, python-format
+msgid "Debit Account"
+msgstr "Cuenta debito"
+
+#. module: fleet_x_account
+#: code:addons/fleet_x_account/models/fleet_vehicle_cost.py:166
+#: code:addons/fleet_x_account/models/res_config.py:31
+#: model:ir.model.fields,field_description:fleet_x_account.field_fleet_config_settings_default_journal_id
+#: model:ir.model.fields,field_description:fleet_x_account.field_fleet_service_type_journal_id
+#: model:ir.ui.view,arch_db:fleet_x_account.view_fleet_config_settings_inherit
+#, python-format
+msgid "Journal"
+msgstr "Diario"
+
+#. module: fleet_x_account
+#: code:addons/fleet_x_account/models/fleet_vehicle_cost.py:101
+#, python-format
+msgid "The Expense Journal \"%s\" has not properly configured the Credit Account!"
+msgstr "El diario de gastos”%s” no tiene la cuenta de credito configurada!"
+
+#. module: fleet_x_account
+#: code:addons/fleet_x_account/models/fleet_vehicle_cost.py:119
+#, python-format
+msgid "The Expense Journal \"%s\" has not properly configured the Debit Account! "
+msgstr "El diario de gastos \"%s\" no tiene la cuenta debito configurada "
+
+#. module: fleet_x_account
+#: model:ir.model,name:fleet_x_account.model_fleet_service_type
+msgid "Type of services available on a vehicle"
+msgstr "Tipo de servicios disponible en el vehículo"
+
+#. module: fleet_x_account
+#: model:ir.model,name:fleet_x_account.model_fleet_config_settings
+msgid "fleet.config.settings"
+msgstr "fleet.config.settings"

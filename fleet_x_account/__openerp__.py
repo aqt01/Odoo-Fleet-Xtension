@@ -30,8 +30,7 @@
         'account', 'fleet_x_service'
     ],
     'data': [
-        'views/fleet_account.xml',
-        'views/res_config.xml'
+        'views/fleet_account.xml'
              ],
     'installable': True,
 }
