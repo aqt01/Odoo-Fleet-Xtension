@@ -239,6 +239,11 @@ class fleet_vehicle(models.Model):
         action['domain'] = str(['&', ('res_model', '=', self._name), ('res_id', 'in', ids)])
         return action
 
+    @api.model
+    def create(self, vals):
+        vals.update({"license_plate": vals["vin_sn"]})
+        return super(fleet_vehicle, self).create(vals)
+
 
 class fleet_vehicle_model(models.Model):
     _inherit = 'fleet.vehicle.model'
