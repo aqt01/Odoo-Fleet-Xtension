@@ -29,24 +29,53 @@
             <field name="arch" type="xml">
                 <form string="Gallery">
                     <sheet>
-                        <group cols="4">
+                        <group cols="8">
                             <field name="name" required="1"/>
+                            <field name="doc_type"/>
+                            <field name="to_partner_id"/>
+                            <field name="from_partner_id"/>
+                            <field name="description" widget="many2many_tags"/>
                         </group>
-                        <group cols="4">
-                            <field name="front_view" widget='image'/>
+                        <group>
+                            <group>
+                                <field name="internal_mirror"/>
+                                <field name="right_mirror"/>
+                                <field name="left_mirror"/>
+                                <field name="fuel_plug"/>
+                                <field name="radiator_plug"/>
+                                <field name="radio"/>
+                                <field name="gato"/>
+                                <field name="tire"/>
+                            </group>
+                            <group>
+                                <field name="r_tire"/>
+                                <field name="carpet"/>
+                                <field name="kit"/>
+                                <field name="lighter"/>
+                                <field name="front_turn_lamp"/>
+                                <field name="back_turn_lamp"/>
+                                <field name="manual"/>
+                                <field name="keys"/>
+                                <field name="wheel_wrench"/>
+                            </group>
                         </group>
-                        <group cols="4">
-                            <field name="left_side_view" widget='image'/>
-                        </group>
-                        <group cols="4">
-                            <field name="right_side_view" widget='image'/>
-                        </group>
-                        <group cols="4">
-                            <field name="rear_view" widget='image'/>
-                        </group>
-                        <group cols="4">
-                            <field name="odometer_view" widget='image'/>
-                        </group>
+
+                       <notebook>
+                           <page string="Observaciones">
+                               <group>
+                                <group cols="4">
+
+                                    <field name="front_view" widget='image'/>
+                                    <field name="left_side_view" widget='image'/>
+                                </group>
+                               <group cols="4">
+                                    <field name="right_side_view" widget='image'/>
+                                    <field name="rear_view" widget='image'/>
+                                    <field name="odometer_view" widget='image'/>
+                               </group>
+                               </group>
+                           </page>
+                       </notebook>
                     </sheet>
                 </form>
             </field>
