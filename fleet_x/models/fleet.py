@@ -130,7 +130,7 @@ class fleet_vehicle(models.Model):
     acquisition_date = fields.Date(_('Acquisition Date'), required=True,
                                    help=_('Date of purchase'),
                                    default=fields.Date.today())
-    type_id = fields.Many2one('fleet.vehicle.type', _('Type'), required=True)
+    type_id = fields.Many2one('fleet.vehicle.type', _('Type'), required=False)
     location_id = fields.Many2one('fleet.vehicle.location',
                                   _('Operational Location'))
 
