@@ -26,7 +26,7 @@ class fleet_vehicle_gallery(models.Model):
     right_mirror = fields.Boolean("Espejo retrovisor derecho")
     left_mirror = fields.Boolean("Espejo retrovisor izquierdo")
     fuel_plug = fields.Boolean(u"Tapón de gasolina")
-    radiator_plug = fields.Boolean(u"Tapón de gasolina")
+    radiator_plug = fields.Boolean(u"Tapón del raiador")
     radio = fields.Boolean("Radio")
     gato = fields.Boolean("Gato")
     tire = fields.Selection([("new", "Nuevas"),("used","Usadas")],"Gomas")
